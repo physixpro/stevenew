@@ -1,0 +1,20 @@
+
+.wrap-video-content{
+    display: flex;
+  
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+  
+    background-color: rgb(0, 0, 0);
+ 
+}
+
+.video-paragraph{
+    color:white;
+    
+}
+
+video{
+    border: 3px solid white;
+}

@@ -1,0 +1,95 @@
+/* .dual-color{
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      rgb(255, 255, 255) 0%,
+      rgb(255, 255, 255) 70%,
+      rgb(0, 0, 0) 20%,
+      rgb(0, 0, 0) 100%);
+} */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 10px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 10px;
+}
+.dual-color{
+    overflow: hidden;
+    height: 100vh;
+    /* background: linear-gradient(
+      to right,
+      rgb(0, 0, 0) 0%,
+      rgb(0, 0, 0) 70%,
+      rgb(255, 255, 255) 20%,
+      rgb(255, 255, 255) 100%); */
+}
+.steve-image{
+
+    width:40%;
+   
+    position:fixed;
+    bottom:0px;
+    left:50%;
+}
+
+.documentary-filmaker-showrunner{
+    /* background: linear-gradient(
+        to right,
+        rgb(0, 0, 0) 0%,
+        rgb(0, 0, 0) 70%,
+        rgb(255, 255, 255) 20%,
+        rgb(255, 255, 255) 100%); */
+    color:red;
+}
+
+.showrunner{
+    /* background: linear-gradient(
+        to right,
+        rgb(0, 0, 0) 0%,
+        rgb(0, 0, 0) 70%,
+        rgb(255, 255, 255) 20%,
+        rgb(255, 255, 255) 100%); */
+    color:red;
+}
+
+#steve-main{
+    font-family: 'EB Garamond', serif;
+    color:rgb(255, 255, 255);
+    /* background: linear-gradient(
+        to right,
+        rgb(0, 0, 0) 0%,
+        rgb(0, 0, 0) 70%,
+        rgb(255, 255, 255) 20%,
+        rgb(255, 255, 255) 100%); */
+    letter-spacing: 30px;
+}
+.bio-header{
+    justify-content: center;
+  }
+
+
+p{
+    z-index: 1000;
+    position: relative;
+   
+    display:flex;
+  text-align: center;
+    font-size: 15px;
+    align-items: left;
+      background-color: #000000;
+      color:white;
+      margin: 0 auto; width: 50%;
+      line-height: 2em;
+      margin-left: 90px;
+      padding-bottom: 50px;
+    
+      
+  }
