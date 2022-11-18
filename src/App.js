@@ -13,6 +13,7 @@ import Fatalencounters from "./video-components/Fatalencounters";
 import Eugene from "./video-components/Eugene";
 import Newyork from "./video-components/Newyork";
 import Thebottle from "./video-components/Thebottle";
+import Msnbc from "./video-components/Msnbc";
 // import Brokenfurniture from "./video-components/Brokenfurniture";
 import Press from "./routes/Press";
 // import Steve from "./routes/Steve";
@@ -36,8 +37,10 @@ function App() {
       <Route path="/eugeneoneil" element={<Eugene />} />
       <Route path="/newyork" element={<Newyork />} />
       <Route path="/thebottle" element={<Thebottle />} />
+      <Route path="/msnbc" element={<Msnbc />} />
       <Route path="/bio" element={<Bio />} />
       <Route path="/contact" element={<Contact />} />
+
       {/* <Route path="/brokenfurniture" element={<Brokenfurniture />} /> */}
     </Routes>
   );

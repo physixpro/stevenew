@@ -58,7 +58,7 @@ const Work = () => {
             <Link to="/bitchen">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1236240149-633d6d05fed5b7625d7c2c51c602b4a2d5146f08d4bf8e215e80742a036c798a-d_640x360"
+                  src="https://i.vimeocdn.com/video/1545519508-6cfc67ffa30fa9c5f791ad270334b0d80c07bc458057e9ad70f8cfbc8812da88-d_640x360"
                   width="500"
                   height="300"
                   alt="bithcen: The sound and fury of Rick James"
@@ -74,7 +74,7 @@ const Work = () => {
             <Link to="/funkandwar">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1236225145-586db5f780334266a9683c70c391d24de3f76f11c17ca3f51695f47aeb8d22c6-d_640x360"
+                  src="https://i.vimeocdn.com/video/1525513444-0755f164dd7130350c092e1949b0e1ae22a15d625eb0f7effe247a12bb76d92b-d_640x360"
                   width="500"
                   height="300"
                   alt="bithcen: Funk and War"
@@ -213,21 +213,21 @@ const Work = () => {
           </div>
         </AnimationOnScroll>
         <br />
-        {/********* The bottle - music video  ********/}
-        {/* <AnimationOnScroll animateIn="animate__fadeIn">
+        {/*********   MSNBC ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/brokenfurniture">
+            <Link to="/msnbc">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/79556844-d97687847b52eed587b15ebef815594d481f3f42719f33a365cb9410bdce4d23-d_640x360"
+                  src="https://i.vimeocdn.com/video/472060557-1d72e0c68e7d918c91bc0cb93e370ef419891f61057203b8ca635b3b485b7767-d_640x360"
                   width="500"
                   height="300"
-                  alt="The bottle- Music video"
+                  alt="msnbc wikileaks"
                 />
               </motion.button>
             </Link>
           </div>
-        </AnimationOnScroll> */}
+        </AnimationOnScroll>
       </div>
     </motion.div>
   );
