@@ -11,6 +11,7 @@ import Invisiblekillers from "./video-components/Invisiblekillers";
 import Theviceguide from "./video-components/Theviceguide";
 import Fatalencounters from "./video-components/Fatalencounters";
 import Eugene from "./video-components/Eugene";
+import Drsexoneration from "./video-components/Drsexoneration";
 import Newyork from "./video-components/Newyork";
 import Carvalhosjourney from "./video-components/Carvalhosjourney";
 import Thebottle from "./video-components/Thebottle";
@@ -36,6 +37,7 @@ function App() {
       <Route path="/invisiblekillers" element={<Invisiblekillers />} />
       <Route path="/theviceguide" element={<Theviceguide />} />
       <Route path="/fatalencounters" element={<Fatalencounters />} />
+      <Route path="/exoneration" element={<Drsexoneration />} />
       <Route path="/plastics" element={<Brokenplastics />} />
       <Route path="/carvalhos" element={<Carvalhosjourney />} />
       <Route path="/eugeneoneil" element={<Eugene />} />

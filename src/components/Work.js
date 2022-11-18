@@ -261,6 +261,22 @@ const Work = () => {
           </div>
         </AnimationOnScroll>
         <br />
+        {/********* drs exoneration ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/exoneration">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/1548876662-b7c79a8a5582454cdd41a12c5eefc759d683b2c42fe8d3127d5bf44bbb8bb310-d?mw=2700&mh=1519&q=70"
+                  width="500"
+                  height="300"
+                  alt="carvalhos journey"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
       </div>
     </motion.div>
   );
