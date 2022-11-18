@@ -228,6 +228,22 @@ const Work = () => {
             </Link>
           </div>
         </AnimationOnScroll>
+        {/********* broken plastics  ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/plastics">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/1550248684-1117dd10b15bf62969e3b7d7e5f01bd10ca6871da6168b7892f273857aebcf02-d?mw=2900&mh=1631&q=70"
+                  width="500"
+                  height="300"
+                  alt="Broken plastics"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
       </div>
     </motion.div>
   );

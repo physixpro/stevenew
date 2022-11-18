@@ -13,6 +13,7 @@ import Fatalencounters from "./video-components/Fatalencounters";
 import Eugene from "./video-components/Eugene";
 import Newyork from "./video-components/Newyork";
 import Thebottle from "./video-components/Thebottle";
+import Brokenplastics from "./video-components/Brokenplastics";
 import Msnbc from "./video-components/Msnbc";
 // import Brokenfurniture from "./video-components/Brokenfurniture";
 import Press from "./routes/Press";
@@ -34,6 +35,7 @@ function App() {
       <Route path="/invisiblekillers" element={<Invisiblekillers />} />
       <Route path="/theviceguide" element={<Theviceguide />} />
       <Route path="/fatalencounters" element={<Fatalencounters />} />
+      <Route path="/plastics" element={<Brokenplastics />} />
       <Route path="/eugeneoneil" element={<Eugene />} />
       <Route path="/newyork" element={<Newyork />} />
       <Route path="/thebottle" element={<Thebottle />} />
