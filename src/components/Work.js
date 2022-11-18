@@ -277,6 +277,22 @@ const Work = () => {
           </div>
         </AnimationOnScroll>
         <br />
+        {/********* broken -deadly dressers ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/deadlydressers">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/1550370552-a8f332c9c7c1b557fd8a6a7c8a3c9395e79df2497957931800697e6adcf0f754-d?mw=2700&mh=1519&q=70"
+                  width="500"
+                  height="300"
+                  alt="broken - deadly dressers"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
       </div>
     </motion.div>
   );
