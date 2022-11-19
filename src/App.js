@@ -9,10 +9,14 @@ import Rollinglikethunder from "./video-components/Rollinglikethunder";
 import Broken from "./video-components/Broken";
 import Invisiblekillers from "./video-components/Invisiblekillers";
 import Theviceguide from "./video-components/Theviceguide";
+import Heather from "./video-components/Heather";
+import Influenza from "./video-components/Influenza";
 import Fatalencounters from "./video-components/Fatalencounters";
 import Eugene from "./video-components/Eugene";
 import Drsexoneration from "./video-components/Drsexoneration";
+import Insideman from "./video-components/Insideman";
 import Deadlydressers from "./video-components/Deadlydressers";
+import Smallpox from "./video-components/Smallpox";
 import Newyork from "./video-components/Newyork";
 import Carvalhosjourney from "./video-components/Carvalhosjourney";
 import Thebottle from "./video-components/Thebottle";
@@ -36,8 +40,12 @@ function App() {
       <Route path="/rollinglikethunder" element={<Rollinglikethunder />} />
       <Route path="/broken" element={<Broken />} />
       <Route path="/invisiblekillers" element={<Invisiblekillers />} />
+      <Route path="/heather" element={<Heather />} />
       <Route path="/theviceguide" element={<Theviceguide />} />
       <Route path="/fatalencounters" element={<Fatalencounters />} />
+      <Route path="/influenza" element={<Influenza />} />
+      <Route path="/smallpox" element={<Smallpox />} />
+      <Route path="/insideman" element={<Insideman />} />
       <Route path="/deadlydressers" element={<Deadlydressers />} />
       <Route path="/exoneration" element={<Drsexoneration />} />
       <Route path="/plastics" element={<Brokenplastics />} />

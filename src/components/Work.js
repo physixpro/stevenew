@@ -270,7 +270,7 @@ const Work = () => {
                   src="https://i.vimeocdn.com/video/1548876662-b7c79a8a5582454cdd41a12c5eefc759d683b2c42fe8d3127d5bf44bbb8bb310-d?mw=2700&mh=1519&q=70"
                   width="500"
                   height="300"
-                  alt="carvalhos journey"
+                  alt="exoneration"
                 />
               </motion.button>
             </Link>
@@ -293,6 +293,69 @@ const Work = () => {
           </div>
         </AnimationOnScroll>
         <br />
+        {/********* ivisible killers, influenza ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/influenza">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/824633152-07ed18f68b424b65d4d252b407c4b879ec1b450b7bc77263c2693797420ce91e-d?mw=1300&mh=731"
+                  width="500"
+                  height="300"
+                  alt="invisible killers influenza"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
+        {/********* ivisible killers, smallpox ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/smallpox">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/1550598339-866cc5d3b7e57cd471f02c7a7318f7accede75b41db899fde7e4171738372f31-d?mw=1300&mh=731"
+                  width="500"
+                  height="300"
+                  alt="invisible killers smallpox"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
+        {/********* Trulnside: Heathers ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/heather">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/1550604012-e080be73b0b0a5593b08da51764bcf5c53e4ffb4dd24447ec8bf2224a7a87cb8-d?mw=1300&mh=731"
+                  width="500"
+                  height="300"
+                  alt="TruInside Heathers"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
+        {/********* Morgan spurlock - inside man csi bomb training ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/insideman">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/678335447-42834420206036f3f2ce7739e9b2ebe69a8613d88f8b035273f48a7aec07a286-d?mw=1300&mh=731"
+                  width="500"
+                  height="300"
+                  alt="Morgan Spurlock - Inside Man"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
       </div>
     </motion.div>
   );
