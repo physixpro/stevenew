@@ -27,10 +27,10 @@ const Bio = () => {
         </button>
       </header>
       <h1>Steve Rivo</h1>
-      <h1>
+      <h3>
         DOCUMENTARY FILMMAKER SHOWRUNNER <br></br> / DIRECTOR / WRITER /
         PRODUCER
-      </h1>
+      </h3>
 
       <header className="bio-header">Bio</header>
       <p>

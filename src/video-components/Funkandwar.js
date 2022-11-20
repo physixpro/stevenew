@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,11 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">A Showtime Documentary Film</h2>
+          <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            Scene excerpt featuring interview with Bootsy Collins (Selected
+            Scene)
           </p>
         </div>
       </div>

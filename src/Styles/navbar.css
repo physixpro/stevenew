@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -71,12 +71,23 @@ nav{
 
 
 h1{
+	font-size: 41px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-family: 'Archivo Black', sans-serif;
+    /* font-family: 'EB Garamond', serif; */
+    letter-spacing: none;
+	color:rgb(255, 255, 255);
+}
+
+h3{
 	
 	display: flex;
     justify-content: center;
 	align-items: center;
     font-family: 'EB Garamond', serif;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 	color:rgb(255, 255, 255);
 }
 nav a {

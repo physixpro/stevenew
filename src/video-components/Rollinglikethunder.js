@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,18 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">A Showtime Documentary Film</h2>
+          <h2 className="video-sub-title">Showrunner/ Producer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            Before street art became mainstream, the anonymous outlaws of
+            “freight writing” put graffiti on the map. One of the most extreme
+            and risky iterations of the art form, freight train graffiti culture
+            has a rich history, laden with myth-like artists, remarkable
+            romances and competitive graffiti crews. Delving into the
+            underground subculture reveals the deep connection between graffiti
+            and the American landscape, as well as the artists’ obsession with
+            putting life and limb on the line to make their voices heard.
+            (Trailer)
           </p>
         </div>
       </div>

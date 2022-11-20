@@ -7,12 +7,24 @@
     align-items: center; /* align items horizontally, in this case */
   
     background-color: rgb(0, 0, 0);
- 
+ padding-top: 60px;
 }
 
 .video-paragraph{
     color:white;
     
+}
+
+.video-sub-title{
+    color: white;
+}
+
+.p-wrapper{
+    display: flex;
+  
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; 
 }
 
 video{
