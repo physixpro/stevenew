@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,15 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">The landmark PBS series</h2>
+          <h2 className="video-sub-title">Producer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            This seven-part, fourteen-hour television event directed by Ric
+            Burns explores New York City's rich history as the premier
+            laboratory of modern life. A sweeping narrative covering nearly 400
+            years and 400 square miles, it reveals a complex and dynamic city
+            that has played an unparalleled role in shaping the nation and
+            reflecting its ideals. Selected Scenes
           </p>
         </div>
       </div>

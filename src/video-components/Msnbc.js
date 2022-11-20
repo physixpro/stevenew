@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,21 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">MSNBC Documentary</h2>
+          <h2 className="video-sub-title">Producer and Writer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            Segment from MSNBC documentary series "Caught on Camera” about the
+            classified U.S. military video leaked by Wikileaks in 2010. The
+            video, taken from the gunsight of U.S. Apache helicopters, shows an
+            attack on a group of men on the streets of Baghdad in 2007 and the
+            firing on a van that was attempting to assist the wounded, among
+            whom were two Reuters journalists. Includes commentary by former
+            U.S. Army Ranger Ethan McCord, one of the first soldiers to reach
+            the site of the attack. The release of the edited video, which
+            Julian Assange titled “Collateral Murder,” and which was later
+            determined to have been provided by Chelsea Manning, was the event
+            that first brought Assange and Wikileaks into the public eye.
+            Selected Scenes
           </p>
         </div>
       </div>

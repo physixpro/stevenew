@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,10 +49,12 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
-          <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
-          </p>
+          <h2 className="video-sub-title">
+            Music Video for legendary artist Gil Scott-Heron’s classic song “The
+            Bottle”
+          </h2>
+          <h2 className="video-sub-title">Co-Director and Producer</h2>
+          <p className="video-paragraph">Over 3.8 Million Views on YouTube</p>
         </div>
       </div>
     </div>

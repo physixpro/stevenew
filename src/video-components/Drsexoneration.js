@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,14 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">
+            A CNN Documentary Series about the death penalty in America
+          </h2>
+          <h2 className="video-sub-title">Director and Producer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            Selected Scene from “Blood and Water” which tells the incredible
+            tale of Joe D'Ambrosio, a Cleveland man sentenced to death for
+            murder in 1989, and his decades long quest to prove his innocence.
           </p>
         </div>
       </div>

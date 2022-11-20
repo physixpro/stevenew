@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,15 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">A Documentary Film by Steve Rivo</h2>
+          <h2 className="video-sub-title">Director, Producer, Writer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            A real-life 19th century American western adventure story,
+            CARVALHO'S JOURNEY tells the extraordinary story of Solomon Nunes
+            Carvalho (1815-1897), an observant Sephardic Jew born in Charleston,
+            South Carolina, and his life as a groundbreaking photographer,
+            artist and pioneer in American history. Presented at over two dozen
+            film festivals and aired on PBS. Selected Scenes
           </p>
         </div>
       </div>
