@@ -1,6 +1,6 @@
 
 
-.press-column-wrapper{
+/* .press-column-wrapper{
     position: relative;
   
     display:flex;
@@ -10,14 +10,26 @@
   margin-left: 20%;
   margin-right: 20%;
 
-}
+} */
 
-.press-column{
+
+/* .press-column{
     flex-grow: 1;
 	width: 33%;
 	height: 100px;
     color:white;
    
+} */
+
+.press{
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+}
+
+li{
+    padding:30px;
 }
 
 #testpress{
@@ -38,7 +50,7 @@
 
 a{
     text-decoration: none;
-    color:red;
+    color:rgb(255, 255, 255);
 }
 
 a:hover{
