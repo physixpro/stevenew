@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,15 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">
+            True Crime series for Investigation Discovery
+          </h2>
+          <h2 className="video-sub-title">Director, Producer, Writer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            A weekend of deer hunting in northern Wisconsin - usually a time of
+            camaraderie and celebration - turns terrifying when, in less than 48
+            hours, an altercation between hunters in the woods leads to murder.
+            Selected Scenes
           </p>
         </div>
       </div>

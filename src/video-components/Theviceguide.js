@@ -31,11 +31,11 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,17 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-sub-title">
+            An 8-episode VICE Documentary Series for MTV
+          </h2>
+          <h2 className="video-sub-title">Senior Story Producer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            When Vice magazine first started, all it cared about was sex, drugs,
+            and rock 'n roll. But as it started traveling around the world, it
+            got more into politics, culture, fashion, art, the environment.
+            Basically, everything - The Vice Guide To Everything. “Ramallah
+            Street Racing” - Full segment from Episode 3, hosted by Thomas
+            Morton
           </p>
         </div>
       </div>
