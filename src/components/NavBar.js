@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div>
       <header className="nav-header">
-        <nav ref={navRef}>
+        <nav id="main-nav" ref={navRef}>
           <a href="/#">Work</a>
           <a href="/cv">CV</a>
           <Link to="/press">Press</Link>

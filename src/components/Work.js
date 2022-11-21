@@ -139,7 +139,7 @@ const Work = () => {
             <Link to="/theviceguide">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/123953243-042fd9f4309dcf2059909d400e5c280d9e1a20acc077999594dd95eb4f4f94d0-d_640x360"
+                  src="https://i.vimeocdn.com/video/1551540383-0b6a357ef1d15ec23fce34b06c5a6a6b043489f7c7bd717b4c6aafe3152f513c-d?mw=2200&mh=1650&q=70"
                   width="500"
                   height="300"
                   alt="the vice guide to everything -Ramallah Street Racing"
@@ -155,7 +155,7 @@ const Work = () => {
             <Link to="/fatalencounters">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/472143267-bc4eb60f42638698dfe62db49d25d9b52999f3f9857cb7f56b74792fa519e279-d_640x360"
+                  src="https://i.vimeocdn.com/video/1551538869-3cf74bbe879d587eed515c404dcdc2584224f16d7e7a176e9037598b3f639519-d?mw=500&mh=303&q=70"
                   width="500"
                   height="300"
                   alt="Fatal Encounters- Terror in the woods"
@@ -219,7 +219,7 @@ const Work = () => {
             <Link to="/msnbc">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/472060557-1d72e0c68e7d918c91bc0cb93e370ef419891f61057203b8ca635b3b485b7767-d_640x360"
+                  src="https://i.vimeocdn.com/video/1551536887-d4d3036eadc6966d0522481ade61c784bb2bb56741685890c4225e1c1af88518-d?mw=2900&mh=1631&q=70"
                   width="500"
                   height="300"
                   alt="msnbc wikileaks"
