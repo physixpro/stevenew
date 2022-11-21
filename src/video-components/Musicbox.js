@@ -30,7 +30,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
+      <div className="top-line"></div>
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
@@ -49,6 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>You're Watching Video Music Box</h3> <br />
+          <h3>Trailer</h3>
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
           <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
           <p className="video-paragraph">

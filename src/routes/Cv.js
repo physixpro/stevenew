@@ -33,6 +33,7 @@ const Cv = () => {
       </header>
       {/****** headers *********/}
       <h1>STEVE RIVO</h1>
+      <div className="top-line"></div>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
         <h3>DOCUMENTARY FILMMAKER</h3>
       </AnimationOnScroll>

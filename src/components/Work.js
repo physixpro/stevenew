@@ -219,7 +219,7 @@ const Work = () => {
             <Link to="/msnbc">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1551536887-d4d3036eadc6966d0522481ade61c784bb2bb56741685890c4225e1c1af88518-d?mw=2900&mh=1631&q=70"
+                  src="https://i.vimeocdn.com/video/1548916058-321c32f8c19d9f36421fc3cb9fd80621d88d2b0365456df81d214aeaeb3611c9-d?mw=2500&mh=1406&q=70"
                   width="500"
                   height="300"
                   alt="msnbc wikileaks"
@@ -235,7 +235,7 @@ const Work = () => {
             <Link to="/plastics">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1550248684-1117dd10b15bf62969e3b7d7e5f01bd10ca6871da6168b7892f273857aebcf02-d?mw=2900&mh=1631&q=70"
+                  src="https://i.vimeocdn.com/video/1552156131-a9c84c830c6e6ddce8bb3359433dadbc4f15db8359242f6617228f4f5416e225-d?mw=1300&mh=731"
                   width="500"
                   height="300"
                   alt="Broken plastics"
@@ -251,7 +251,7 @@ const Work = () => {
             <Link to="/carvalhos">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1550354042-1e2f6d1fae4ea4bdc9acb900c3ec4a54f94e44e88eadb736f91d3affcd2d8dbd-d?mw=2700&mh=1519&q=70"
+                  src="https://i.vimeocdn.com/video/1552157766-7460106fbce3b0503f4fe8b561dc951433bee85e24de17664de9044d169e0774-d?mw=1300&mh=731"
                   width="500"
                   height="300"
                   alt="carvalhos journey"
@@ -283,7 +283,7 @@ const Work = () => {
             <Link to="/deadlydressers">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1550370552-a8f332c9c7c1b557fd8a6a7c8a3c9395e79df2497957931800697e6adcf0f754-d?mw=2700&mh=1519&q=70"
+                  src="https://i.vimeocdn.com/video/1548903243-c3b6acc6d892a91e23f7d9b1e0b8dac3660c370e89090670178b0dd69de64a07-d?mw=1300&mh=731"
                   width="500"
                   height="300"
                   alt="broken - deadly dressers"
@@ -331,7 +331,7 @@ const Work = () => {
             <Link to="/heather">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1550604012-e080be73b0b0a5593b08da51764bcf5c53e4ffb4dd24447ec8bf2224a7a87cb8-d?mw=1300&mh=731"
+                  src="https://i.vimeocdn.com/video/578591857-66604cc86985f52d2dc7a42a108aa91edd7f9c8fc1e1c84fdf9cd355540f844f-d?mw=1300&mh=731"
                   width="500"
                   height="300"
                   alt="TruInside Heathers"
@@ -347,7 +347,7 @@ const Work = () => {
             <Link to="/insideman">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/678335447-42834420206036f3f2ce7739e9b2ebe69a8613d88f8b035273f48a7aec07a286-d?mw=1300&mh=731"
+                  src="https://i.vimeocdn.com/video/678335965-c7716b3487c06d845898f4d1df7243173f7d2aca45323c5f05c8de16fae4b706-d?mw=1300&mh=731"
                   width="500"
                   height="300"
                   alt="Morgan Spurlock - Inside Man"

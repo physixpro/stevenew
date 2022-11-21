@@ -66,14 +66,15 @@ const Fullpage = () => {
         </button>
       </header>
       {/****** headers *********/}
-      <h1>STEVE RIVO</h1>
-      <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
+      <h1>SELECTED PRESS</h1>
+      <div className="top-line"></div>
+      {/* <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
         <h3>DOCUMENTARY FILMMAKER</h3>
       </AnimationOnScroll>
       <></>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
         <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
-      </AnimationOnScroll>
+      </AnimationOnScroll> */}
       <br />
 
       {/****************** Press section *************** */}

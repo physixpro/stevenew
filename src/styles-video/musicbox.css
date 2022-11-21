@@ -17,6 +17,7 @@
 
 .video-sub-title{
     color: white;
+    padding-top: 30px;
 }
 
 .p-wrapper{
@@ -25,6 +26,7 @@
     flex-direction: column; /* make main-axis vertical */
     justify-content: center; /* align items vertically, in this case */
     align-items: center; 
+    padding-top: 50px;
 }
 
 video{
