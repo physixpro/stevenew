@@ -49,6 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Broken</h3>
+          <h3>Trailer</h3>
           <h2 className="video-sub-title">A Netflix Original Series</h2>
           <h2 className="video-sub-title">Director</h2>
           <p className="video-paragraph">

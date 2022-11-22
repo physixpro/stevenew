@@ -49,6 +49,7 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>The Vice Guide to Everything </h3>
           <h2 className="video-sub-title">
             An 8-episode VICE Documentary Series for MTV
           </h2>

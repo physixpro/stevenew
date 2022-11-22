@@ -49,6 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Invisible Killers </h3>
+          <h3>Trailer</h3>
           <h2 className="video-sub-title">
             A 3-part Documentary Series for Discovery
           </h2>

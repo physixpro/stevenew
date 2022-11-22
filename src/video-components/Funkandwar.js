@@ -49,6 +49,7 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Bitchin’: The Sound and Fury of Rick James – “Funk and War”</h3>
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
           <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
           <p className="video-paragraph">

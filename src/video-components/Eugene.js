@@ -49,6 +49,7 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Eugene O’Neill: A Documentary Film</h3>
           <h2 className="video-sub-title">A PBS Documentary Film</h2>
           <h2 className="video-sub-title">Producer</h2>
           <p className="video-paragraph">

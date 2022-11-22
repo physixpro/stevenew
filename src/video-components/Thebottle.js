@@ -49,6 +49,7 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>The Bottle</h3>
           <h2 className="video-sub-title">
             Music Video for legendary artist Gil Scott-Heron’s classic song “The
             Bottle”

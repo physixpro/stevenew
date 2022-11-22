@@ -49,6 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Rolling Like Thunder </h3> <br />
+          <h3>Trailer</h3>
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
           <h2 className="video-sub-title">Showrunner/ Producer</h2>
           <p className="video-paragraph">

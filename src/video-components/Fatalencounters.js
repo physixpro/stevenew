@@ -49,6 +49,7 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Fatal Encounters – “Terror in the Woods”</h3>
           <h2 className="video-sub-title">
             True Crime series for Investigation Discovery
           </h2>
