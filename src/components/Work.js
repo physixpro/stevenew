@@ -4,14 +4,24 @@ import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import musicboxblur from "../blurred-images/musicboxblur.png";
+import musicboxblur from "../blurred-images/musicboxblur.jpg";
 import bitchenblur from "../blurred-images/bitchenblur.jpg";
+import funkblur from "../blurred-images/funkblur.jpg";
+import brokenblur from "../blurred-images/brokenblur.jpg";
+import thunderblur from "../blurred-images/thunderblur.jpg";
+import invisiblekillersblur from "../blurred-images/invisiblekillersblur.jpg";
 // import Musicbox from "../routes/Musicbox.js";
 const Work = () => {
   /***************************************************************************************** START FUNCTION ************************************************************ */
 
   const [hoverOverImage, setHoverOverImage] = useState(false);
   const [hoverOverImageTwo, setHoverOverImageTwo] = useState(false);
+  const [hoverOverImageThree, setHoverOverImageThree] = useState(false);
+  const [hoverOverImageFour, setHoverOverImageFour] = useState(false);
+  const [hoverOverImageFive, setHoverOverImageFive] = useState(false);
+  const [hoverOverImageSeven, setHoverOverImageSeven] = useState(false);
+  const [hoverOverImageEight, setHoverOverImageEight] = useState(false);
+  const [hoverOverImageTen, setHoverOverImageTen] = useState(false);
   /********************************************************************************* END OF HOVER FUNCTION ********************************************************* */
   return (
     <motion.div
@@ -87,14 +97,29 @@ const Work = () => {
         {/**********bitchen funk and fury video link******* */}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box3">
-            <Link to="/funkandwar">
+            <Link
+              to="/funkandwar"
+              onMouseEnter={() => setHoverOverImageThree(true)}
+              onMouseLeave={() => setHoverOverImageThree(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1525513444-0755f164dd7130350c092e1949b0e1ae22a15d625eb0f7effe247a12bb76d92b-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="bithcen: Funk and War"
-                />
+                {hoverOverImageThree ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={funkblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1525513444-0755f164dd7130350c092e1949b0e1ae22a15d625eb0f7effe247a12bb76d92b-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="bithcen: Funk and War"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -119,14 +144,29 @@ const Work = () => {
         {/********* Broken - Trailer  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box5">
-            <Link to="/broken">
+            <Link
+              to="/broken"
+              onMouseEnter={() => setHoverOverImageFive(true)}
+              onMouseLeave={() => setHoverOverImageFive(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/868079851-95bcde86ad10f8eab653dbacdaa4fdf54fdc96e66ee7b973255defcf8b9c40d5-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="broken"
-                />
+                {hoverOverImageFive ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={brokenblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/868079851-95bcde86ad10f8eab653dbacdaa4fdf54fdc96e66ee7b973255defcf8b9c40d5-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="broken"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -151,14 +191,29 @@ const Work = () => {
         {/********* rollinglikethunder video link  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box4">
-            <Link to="/rollinglikethunder">
+            <Link
+              to="/rollinglikethunder"
+              onMouseEnter={() => setHoverOverImageSeven(true)}
+              onMouseLeave={() => setHoverOverImageSeven(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1515844583-bc11f99352daec05da8c241df1df236eba0a6fb4b0419d0fe87777d743d13f2f-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="rolling like thunder"
-                />
+                {hoverOverImageSeven ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={thunderblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1515844583-bc11f99352daec05da8c241df1df236eba0a6fb4b0419d0fe87777d743d13f2f-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="rolling like thunder"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -167,14 +222,29 @@ const Work = () => {
         {/********* Invisible killers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box6">
-            <Link to="/invisiblekillers">
+            <Link
+              to="/invisiblekillers"
+              onMouseEnter={() => setHoverOverImageTen(true)}
+              onMouseLeave={() => setHoverOverImageTen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/695668651-1e2a8131a79bbb760b10186a09d5d5eef7ef2a558c911547590f751671e0807e-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="invisible killers"
-                />
+                {hoverOverImageTen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={invisiblekillersblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/695668651-1e2a8131a79bbb760b10186a09d5d5eef7ef2a558c911547590f751671e0807e-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="invisible killers"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
