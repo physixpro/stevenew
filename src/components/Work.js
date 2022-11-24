@@ -12,7 +12,11 @@ import thunderblur from "../blurred-images/thunderblur.jpg";
 import invisiblekillersblur from "../blurred-images/invisiblekillersblur.jpg";
 import viceguideblur from "../blurred-images/viceguideblur.jpg";
 import fatalencountersblur from "../blurred-images/fatalencountersblur.jpg";
+import newyorkblur from "../blurred-images/newyorkblur.jpg";
 import eugeneblur from "../blurred-images/eugeneblur.jpg";
+import bottleblur from "../blurred-images/bottleblur.jpg";
+import msnbcblur from "../blurred-images/msnbcblur.jpg";
+import plasticsblur from "../blurred-images/plasticsblur.jpg";
 // import Musicbox from "../routes/Musicbox.js";
 const Work = () => {
   /***************************************************************************************** START FUNCTION ************************************************************ */
@@ -363,14 +367,29 @@ const Work = () => {
         {/********* New York : A documentary film  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box10">
-            <Link to="/newyork">
+            <Link
+              to="/newyork"
+              onMouseEnter={() => setHoverOverImageTwenty(true)}
+              onMouseLeave={() => setHoverOverImageTwenty(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/79643826-c82015a0a6e0c5d66bfd16e04b8753e54bb408adb28ddeff89839a4ed113ad0e-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="New York: A Documentary Film"
-                />
+                {hoverOverImageTwenty ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={newyorkblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/79643826-c82015a0a6e0c5d66bfd16e04b8753e54bb408adb28ddeff89839a4ed113ad0e-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="New York: A Documentary Film"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -379,14 +398,29 @@ const Work = () => {
         {/********* The bottle - music video  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/thebottle">
+            <Link
+              to="/thebottle"
+              onMouseEnter={() => setHoverOverImageTwentytwo(true)}
+              onMouseLeave={() => setHoverOverImageTwentytwo(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/79556844-d97687847b52eed587b15ebef815594d481f3f42719f33a365cb9410bdce4d23-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="The bottle- Music video"
-                />
+                {hoverOverImageTwentytwo ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={bottleblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/79556844-d97687847b52eed587b15ebef815594d481f3f42719f33a365cb9410bdce4d23-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="The bottle- Music video"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -395,14 +429,29 @@ const Work = () => {
         {/*********   MSNBC ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/msnbc">
+            <Link
+              to="/msnbc"
+              onMouseEnter={() => setHoverOverImageNineteen(true)}
+              onMouseLeave={() => setHoverOverImageNineteen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1548916058-321c32f8c19d9f36421fc3cb9fd80621d88d2b0365456df81d214aeaeb3611c9-d?mw=2500&mh=1406&q=70"
-                  width="500"
-                  height="300"
-                  alt="msnbc wikileaks"
-                />
+                {hoverOverImageNineteen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={msnbcblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1548916058-321c32f8c19d9f36421fc3cb9fd80621d88d2b0365456df81d214aeaeb3611c9-d?mw=2500&mh=1406&q=70"
+                    width="500"
+                    height="300"
+                    alt="msnbc wikileaks"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -411,14 +460,29 @@ const Work = () => {
         {/********* broken plastics  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/plastics">
+            <Link
+              to="/plastics"
+              onMouseEnter={() => setHoverOverImageNine(true)}
+              onMouseLeave={() => setHoverOverImageNine(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1552156131-a9c84c830c6e6ddce8bb3359433dadbc4f15db8359242f6617228f4f5416e225-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="Broken plastics"
-                />
+                {hoverOverImageNine ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={plasticsblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1552156131-a9c84c830c6e6ddce8bb3359433dadbc4f15db8359242f6617228f4f5416e225-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="Broken plastics"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
