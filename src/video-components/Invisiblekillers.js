@@ -50,19 +50,17 @@ const Musicbox = () => {
         />
         <div className="p-wrapper">
           <h3>Invisible Killers </h3>
-          <h3>Trailer</h3>
-          <h2 className="video-sub-title">
-            A 3-part Documentary Series for Discovery
-          </h2>
-          <h2 className="video-sub-title">Director and Producer</h2>
+          <h3>A 3-part Documentary Series for Discovery</h3>
+          <h2 className="video-sub-title">Trailer</h2>
+          <h2 className="video-sub-title">Director/Producer</h2>
           <p className="video-paragraph">
-            Invisible Killers looks at how viruses have shaped our health and
-            history, the biological and social impact they have on our global
-            society, and the incredible science that has arisen to combat them.
-            Each episode focuses on an individual virus, reaching back to tell
-            the history of that virus, and looking closely at the state of the
-            research and technology surrounding the disease today. Trailer /
-            Promo
+            Three years in the making, Discovery’s three-part series INVISIBLE
+            KILLERS takes viewers around the world to understand how viruses
+            have shaped our health and history, the biological and social impact
+            they have on our global society, and the incredible work that is
+            being done to combat them. In the ongoing battle between humans and
+            viruses, INVISIBLE KILLERS asks: Are we winning? And, when the next
+            pandemic comes, will we be ready?
           </p>
         </div>
       </div>

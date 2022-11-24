@@ -49,9 +49,15 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Invisible Killers: Smallpox</h3>
+          <h3>A 3-part Documentary Series for Discovery</h3>
+          <h2 className="video-sub-title">Selected Scenes</h2>
+          <h2 className="video-sub-title">Director / Producer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            ‘Smallpox’ tells the story of what many people agree is medical
+            science's single greatest accomplishment, the complete eradication
+            of the worst disease known to humankind, a scourge responsible for
+            an estimated 500 million deaths in the 20th century alone.
           </p>
         </div>
       </div>

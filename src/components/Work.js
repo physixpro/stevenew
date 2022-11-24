@@ -5,12 +5,13 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import musicboxblur from "../blurred-images/musicboxblur.png";
+import bitchenblur from "../blurred-images/bitchenblur.jpg";
 // import Musicbox from "../routes/Musicbox.js";
 const Work = () => {
   /***************************************************************************************** START FUNCTION ************************************************************ */
 
   const [hoverOverImage, setHoverOverImage] = useState(false);
-
+  const [hoverOverImageTwo, setHoverOverImageTwo] = useState(false);
   /********************************************************************************* END OF HOVER FUNCTION ********************************************************* */
   return (
     <motion.div
@@ -55,14 +56,29 @@ const Work = () => {
         {/********* bitchen video link  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box2">
-            <Link to="/bitchen">
+            <Link
+              to="/bitchen"
+              onMouseEnter={() => setHoverOverImageTwo(true)}
+              onMouseLeave={() => setHoverOverImageTwo(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1545519508-6cfc67ffa30fa9c5f791ad270334b0d80c07bc458057e9ad70f8cfbc8812da88-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="bithcen: The sound and fury of Rick James"
-                />
+                {hoverOverImageTwo ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={bitchenblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1545519508-6cfc67ffa30fa9c5f791ad270334b0d80c07bc458057e9ad70f8cfbc8812da88-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="bithcen: The sound and fury of Rick James"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -84,17 +100,16 @@ const Work = () => {
           </div>
         </AnimationOnScroll>
         <br />
-
-        {/********* rollinglikethunder video link  ********/}
+        {/********* BEGINNING OF ROW 2 - ANTHONEY BORDAIN KAYAK FISHING ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video" id="box4">
-            <Link to="/rollinglikethunder">
+          <div className="video" id="box11">
+            <Link to="/kayakfishing">
               <motion.button whileHover={{ scale: 1.1 }}>
                 <img
-                  src="https://i.vimeocdn.com/video/1515844583-bc11f99352daec05da8c241df1df236eba0a6fb4b0419d0fe87777d743d13f2f-d_640x360"
+                  src="https://i.ibb.co/Nr38xns/PUAB-Drive-Thru-Steak-small-000004.jpg"
                   width="500"
                   height="300"
-                  alt="rolling like thunder"
+                  alt="puab kayak fishing"
                 />
               </motion.button>
             </Link>
@@ -111,6 +126,38 @@ const Work = () => {
                   width="500"
                   height="300"
                   alt="broken"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
+        {/********* ENDING OF ROW 2 - ANTHONEY BORDAIN DRIVE THRU STREAK ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box11">
+            <Link to="/drivethrustreak">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.ibb.co/tMCgnSJ/PUAB-Drive-Thru-Steak-small-000258.jpg"
+                  width="500"
+                  height="300"
+                  alt="drive thru streak"
+                />
+              </motion.button>
+            </Link>
+          </div>
+        </AnimationOnScroll>
+        <br />
+        {/********* rollinglikethunder video link  ********/}
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video" id="box4">
+            <Link to="/rollinglikethunder">
+              <motion.button whileHover={{ scale: 1.1 }}>
+                <img
+                  src="https://i.vimeocdn.com/video/1515844583-bc11f99352daec05da8c241df1df236eba0a6fb4b0419d0fe87777d743d13f2f-d_640x360"
+                  width="500"
+                  height="300"
+                  alt="rolling like thunder"
                 />
               </motion.button>
             </Link>

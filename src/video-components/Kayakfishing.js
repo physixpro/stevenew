@@ -1,7 +1,6 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import dressers from "../videos/dressers.mp4";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
@@ -31,16 +30,16 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
 
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
           className="react-player"
-          url="https://streamable.com/b3nmua"
+          url="https://streamable.com/liutc5"
           width="558px"
           height="314.36"
           // width="30%"
@@ -49,9 +48,18 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>
+            Anthony Bourdain: Parts Unknown – “Uruguay” episode from Season 11
+            of Emmy and Peabody-winning CNN series
+          </h3>
+          <h3>Kayak Fishing</h3>
+          <h2 className="video-sub-title">Director</h2>
+
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            Bourdain journeys to the progressive South American nation of
+            Uruguay, accompanied by NYC chef Ignacio Mattos, a native Uruguayan,
+            where they enjoy a wide selection of meats in a country where cattle
+            outnumber people almost 4 to 1.
           </p>
         </div>
       </div>

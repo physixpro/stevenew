@@ -49,9 +49,14 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h3>Invisible Killers: Influenza</h3>
+          <h3>A 3-part Documentary Series for Discovery</h3>
+          <h2 className="video-sub-title">Director/Producer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            ‘Influenza’ delves into the astonishing history and impact of this
+            constantly evolving virus, which is often tragically underestimated
+            as merely a cousin to the common cold. The episode explores the
+            ongoing threat it poses and the complex science behind it.
           </p>
         </div>
       </div>
