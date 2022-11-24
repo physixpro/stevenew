@@ -10,6 +10,9 @@ import funkblur from "../blurred-images/funkblur.jpg";
 import brokenblur from "../blurred-images/brokenblur.jpg";
 import thunderblur from "../blurred-images/thunderblur.jpg";
 import invisiblekillersblur from "../blurred-images/invisiblekillersblur.jpg";
+import viceguideblur from "../blurred-images/viceguideblur.jpg";
+import fatalencountersblur from "../blurred-images/fatalencountersblur.jpg";
+import eugeneblur from "../blurred-images/eugeneblur.jpg";
 // import Musicbox from "../routes/Musicbox.js";
 const Work = () => {
   /***************************************************************************************** START FUNCTION ************************************************************ */
@@ -19,10 +22,24 @@ const Work = () => {
   const [hoverOverImageThree, setHoverOverImageThree] = useState(false);
   const [hoverOverImageFour, setHoverOverImageFour] = useState(false);
   const [hoverOverImageFive, setHoverOverImageFive] = useState(false);
+  const [hoverOverImageSix, setHoverOverImageSix] = useState(false);
   const [hoverOverImageSeven, setHoverOverImageSeven] = useState(false);
   const [hoverOverImageEight, setHoverOverImageEight] = useState(false);
+  const [hoverOverImageNine, setHoverOverImageNine] = useState(false);
   const [hoverOverImageTen, setHoverOverImageTen] = useState(false);
-  /********************************************************************************* END OF HOVER FUNCTION ********************************************************* */
+  const [hoverOverImageEleven, setHoverOverImageEleven] = useState(false);
+  const [hoverOverImageTwelve, setHoverOverImageTwelve] = useState(false);
+  const [hoverOverImageThirteen, setHoverOverImageThirteen] = useState(false);
+  const [hoverOverImageFourteen, setHoverOverImageFourteen] = useState(false);
+  const [hoverOverImageFifteen, setHoverOverImageFifteen] = useState(false);
+  const [hoverOverImageSixteen, setHoverOverImageSixteen] = useState(false);
+  const [hoverOverImageSeventeen, setHoverOverImageSeventeen] = useState(false);
+  const [hoverOverImageEighteen, setHoverOverImageEighteen] = useState(false);
+  const [hoverOverImageNineteen, setHoverOverImageNineteen] = useState(false);
+  const [hoverOverImageTwenty, setHoverOverImageTwenty] = useState(false);
+  const [hoverOverImageTwentyone, setHoverOverImageTwentyone] = useState(false);
+  const [hoverOverImageTwentytwo, setHoverOverImageTwentytwo] = useState(false);
+  /************************************************************************* END OF HOVER FUNCTION ********************************************************* */
   return (
     <motion.div
       className="motion"
@@ -253,14 +270,29 @@ const Work = () => {
         {/********* The Vice Guide  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box7">
-            <Link to="/theviceguide">
+            <Link
+              to="/theviceguide"
+              onMouseEnter={() => setHoverOverImageSixteen(true)}
+              onMouseLeave={() => setHoverOverImageSixteen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1551540383-0b6a357ef1d15ec23fce34b06c5a6a6b043489f7c7bd717b4c6aafe3152f513c-d?mw=2200&mh=1650&q=70"
-                  width="500"
-                  height="300"
-                  alt="the vice guide to everything -Ramallah Street Racing"
-                />
+                {hoverOverImageSixteen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={viceguideblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1551540383-0b6a357ef1d15ec23fce34b06c5a6a6b043489f7c7bd717b4c6aafe3152f513c-d?mw=2200&mh=1650&q=70"
+                    width="500"
+                    height="300"
+                    alt="the vice guide to everything -Ramallah Street Racing"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -269,14 +301,29 @@ const Work = () => {
         {/********* Fatal Encounters  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box8">
-            <Link to="/fatalencounters">
+            <Link
+              to="/fatalencounters"
+              onMouseEnter={() => setHoverOverImageEighteen(true)}
+              onMouseLeave={() => setHoverOverImageEighteen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1551538869-3cf74bbe879d587eed515c404dcdc2584224f16d7e7a176e9037598b3f639519-d?mw=500&mh=303&q=70"
-                  width="500"
-                  height="300"
-                  alt="Fatal Encounters- Terror in the woods"
-                />
+                {hoverOverImageEighteen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={fatalencountersblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1551538869-3cf74bbe879d587eed515c404dcdc2584224f16d7e7a176e9037598b3f639519-d?mw=500&mh=303&q=70"
+                    width="500"
+                    height="300"
+                    alt="Fatal Encounters- Terror in the woods"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -285,14 +332,29 @@ const Work = () => {
         {/********* Eugene O'Neil  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box9">
-            <Link to="/eugeneoneil">
+            <Link
+              to="/eugeneoneil"
+              onMouseEnter={() => setHoverOverImageTwentyone(true)}
+              onMouseLeave={() => setHoverOverImageTwentyone(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/440581482-906eb347eb2d26b7eb694597e9502caaf5c39fd4aee544899b2c0e7ea708934c-d_640x360"
-                  width="500"
-                  height="300"
-                  alt="Eugene O Neil: A documentary Film"
-                />
+                {hoverOverImageTwentyone ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={eugeneblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/440581482-906eb347eb2d26b7eb694597e9502caaf5c39fd4aee544899b2c0e7ea708934c-d_640x360"
+                    width="500"
+                    height="300"
+                    alt="Eugene O Neil: A documentary Film"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
