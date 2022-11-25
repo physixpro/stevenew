@@ -23,6 +23,9 @@ import steakblur from "../blurred-images/steakblur.jpg";
 import exonerationblur from "../blurred-images/exonerationblur.jpg";
 import deadlyblur from "../blurred-images/deadlyblur.jpg";
 import influenzablur from "../blurred-images/influenzablur.jpg";
+import smallpoxblur from "../blurred-images/smallpoxblur.jpg";
+import heatherblur from "../blurred-images/heatherblur.jpg";
+import insideblur from "../blurred-images/insideblur.jpg";
 // import Musicbox from "../routes/Musicbox.js";
 const Work = () => {
   /***************************************************************************************** START FUNCTION ************************************************************ */
@@ -651,14 +654,29 @@ const Work = () => {
         {/********* ivisible killers, smallpox ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/smallpox">
+            <Link
+              to="/smallpox"
+              onMouseEnter={() => setHoverOverImageTwelve(true)}
+              onMouseLeave={() => setHoverOverImageTwelve(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1550598339-866cc5d3b7e57cd471f02c7a7318f7accede75b41db899fde7e4171738372f31-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="invisible killers smallpox"
-                />
+                {hoverOverImageTwelve ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={smallpoxblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1554417750-9d34bbb85f782bd13b9f1f3a7cd2ac1fc101d304f6d9a1c33552b4cc3f135ec3-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="invisible killers smallpox"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -667,14 +685,29 @@ const Work = () => {
         {/********* Trulnside: Heathers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/heather">
+            <Link
+              to="/heather"
+              onMouseEnter={() => setHoverOverImageThirteen(true)}
+              onMouseLeave={() => setHoverOverImageThirteen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/578591857-66604cc86985f52d2dc7a42a108aa91edd7f9c8fc1e1c84fdf9cd355540f844f-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="TruInside Heathers"
-                />
+                {hoverOverImageThirteen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={heatherblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/578591857-66604cc86985f52d2dc7a42a108aa91edd7f9c8fc1e1c84fdf9cd355540f844f-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="TruInside Heathers"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -683,14 +716,29 @@ const Work = () => {
         {/********* Morgan spurlock - inside man csi bomb training ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/insideman">
+            <Link
+              to="/insideman"
+              onMouseEnter={() => setHoverOverImageFourteen(true)}
+              onMouseLeave={() => setHoverOverImageFourteen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/678335965-c7716b3487c06d845898f4d1df7243173f7d2aca45323c5f05c8de16fae4b706-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="Morgan Spurlock - Inside Man"
-                />
+                {hoverOverImageFourteen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={insideblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/678335965-c7716b3487c06d845898f4d1df7243173f7d2aca45323c5f05c8de16fae4b706-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="Morgan Spurlock - Inside Man"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
