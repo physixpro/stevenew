@@ -17,6 +17,12 @@ import eugeneblur from "../blurred-images/eugeneblur.jpg";
 import bottleblur from "../blurred-images/bottleblur.jpg";
 import msnbcblur from "../blurred-images/msnbcblur.jpg";
 import plasticsblur from "../blurred-images/plasticsblur.jpg";
+import carvalhosblur from "../blurred-images/carvalhosblur.jpg";
+import kayakblur from "../blurred-images/kayakblur.jpg";
+import steakblur from "../blurred-images/steakblur.jpg";
+import exonerationblur from "../blurred-images/exonerationblur.jpg";
+import deadlyblur from "../blurred-images/deadlyblur.jpg";
+import influenzablur from "../blurred-images/influenzablur.jpg";
 // import Musicbox from "../routes/Musicbox.js";
 const Work = () => {
   /***************************************************************************************** START FUNCTION ************************************************************ */
@@ -149,14 +155,29 @@ const Work = () => {
         {/********* BEGINNING OF ROW 2 - ANTHONEY BORDAIN KAYAK FISHING ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/kayakfishing">
+            <Link
+              to="/kayakfishing"
+              onMouseEnter={() => setHoverOverImageFour(true)}
+              onMouseLeave={() => setHoverOverImageFour(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.ibb.co/Nr38xns/PUAB-Drive-Thru-Steak-small-000004.jpg"
-                  width="500"
-                  height="300"
-                  alt="puab kayak fishing"
-                />
+                {hoverOverImageFour ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={kayakblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1554412099-19ad64ce2adc0b82a957c0979fe25413f59f6889ab7c45fcfeeb8dba963e7162-d?mw=960&mh=540"
+                    width="500"
+                    height="300"
+                    alt="puab kayak fishing"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -193,17 +214,32 @@ const Work = () => {
           </div>
         </AnimationOnScroll>
         <br />
-        {/********* ENDING OF ROW 2 - ANTHONEY BORDAIN DRIVE THRU STREAK ********/}
+        {/********* ENDING OF ROW 2 - ANTHONEY BORDAIN DRIVE THRU STEAK ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/drivethrustreak">
+            <Link
+              to="/drivethrusteak"
+              onMouseEnter={() => setHoverOverImageSix(true)}
+              onMouseLeave={() => setHoverOverImageSix(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.ibb.co/tMCgnSJ/PUAB-Drive-Thru-Steak-small-000258.jpg"
-                  width="500"
-                  height="300"
-                  alt="drive thru streak"
-                />
+                {hoverOverImageSix ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={steakblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1554415030-31ba2e685140dab4974880b39b7ca0d63f6dad644d2953e6338d8d72e8697caf-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="drive thru streak"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -491,14 +527,29 @@ const Work = () => {
         {/********* carvalhos journey ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/carvalhos">
+            <Link
+              to="/carvalhos"
+              onMouseEnter={() => setHoverOverImageFifteen(true)}
+              onMouseLeave={() => setHoverOverImageFifteen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1552157766-7460106fbce3b0503f4fe8b561dc951433bee85e24de17664de9044d169e0774-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="carvalhos journey"
-                />
+                {hoverOverImageFifteen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={carvalhosblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1552157766-7460106fbce3b0503f4fe8b561dc951433bee85e24de17664de9044d169e0774-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="carvalhos journey"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -507,14 +558,29 @@ const Work = () => {
         {/********* drs exoneration ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/exoneration">
+            <Link
+              to="/exoneration"
+              onMouseEnter={() => setHoverOverImageSeventeen(true)}
+              onMouseLeave={() => setHoverOverImageSeventeen(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1548876662-b7c79a8a5582454cdd41a12c5eefc759d683b2c42fe8d3127d5bf44bbb8bb310-d?mw=2700&mh=1519&q=70"
-                  width="500"
-                  height="300"
-                  alt="exoneration"
-                />
+                {hoverOverImageSeventeen ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={exonerationblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1548876662-b7c79a8a5582454cdd41a12c5eefc759d683b2c42fe8d3127d5bf44bbb8bb310-d?mw=2700&mh=1519&q=70"
+                    width="500"
+                    height="300"
+                    alt="exoneration"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -523,14 +589,29 @@ const Work = () => {
         {/********* broken -deadly dressers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/deadlydressers">
+            <Link
+              to="/deadlydressers"
+              onMouseEnter={() => setHoverOverImageEight(true)}
+              onMouseLeave={() => setHoverOverImageEight(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/1548903243-c3b6acc6d892a91e23f7d9b1e0b8dac3660c370e89090670178b0dd69de64a07-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="broken - deadly dressers"
-                />
+                {hoverOverImageEight ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={deadlyblur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1548903243-c3b6acc6d892a91e23f7d9b1e0b8dac3660c370e89090670178b0dd69de64a07-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="broken - deadly dressers"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>
@@ -539,14 +620,29 @@ const Work = () => {
         {/********* ivisible killers, influenza ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
           <div className="video" id="box11">
-            <Link to="/influenza">
+            <Link
+              to="/influenza"
+              onMouseEnter={() => setHoverOverImageEleven(true)}
+              onMouseLeave={() => setHoverOverImageEleven(false)}
+            >
               <motion.button whileHover={{ scale: 1.1 }}>
-                <img
-                  src="https://i.vimeocdn.com/video/824633152-07ed18f68b424b65d4d252b407c4b879ec1b450b7bc77263c2693797420ce91e-d?mw=1300&mh=731"
-                  width="500"
-                  height="300"
-                  alt="invisible killers influenza"
-                />
+                {hoverOverImageEleven ? (
+                  <img
+                    style={{ cursor: "pointer" }}
+                    className="work-videos"
+                    src={influenzablur}
+                    width="500"
+                    height="300"
+                    alt="youre watching video music box"
+                  />
+                ) : (
+                  <img
+                    src="https://i.vimeocdn.com/video/1554420811-90aa6445ee1a820f2fa1ee5124a57f0c3d26339c4fee989117e37261fcb5ad8e-d?mw=1300&mh=731"
+                    width="500"
+                    height="300"
+                    alt="invisible killers influenza"
+                  />
+                )}
               </motion.button>
             </Link>
           </div>

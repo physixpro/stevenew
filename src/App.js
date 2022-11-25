@@ -49,7 +49,7 @@ function App() {
       <Route path="/influenza" element={<Influenza />} />
       <Route path="/smallpox" element={<Smallpox />} />
       <Route path="/insideman" element={<Insideman />} />
-      <Route path="/drivethrustreak" element={<Drivethrustreak />} />
+      <Route path="/drivethrusteak" element={<Drivethrustreak />} />
       <Route path="/deadlydressers" element={<Deadlydressers />} />
       <Route path="/exoneration" element={<Drsexoneration />} />
       <Route path="/plastics" element={<Brokenplastics />} />
