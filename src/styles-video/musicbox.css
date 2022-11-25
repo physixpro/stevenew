@@ -12,12 +12,15 @@
 
 .video-paragraph{
     color:white;
-    
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
 }
 
 .video-sub-title{
     color: white;
-    padding-top: 30px;
+    padding-top: 15px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 15px;
 }
 
 .p-wrapper{
@@ -27,6 +30,7 @@
     justify-content: center; /* align items vertically, in this case */
     align-items: center; 
     padding-top: 50px;
+    
 }
 
 video{
@@ -37,4 +41,10 @@ video{
 .react-player{
     width: 558px;
     height: 314.36px;
+}
+
+.video-title{
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 20px;
 }
