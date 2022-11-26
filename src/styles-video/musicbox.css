@@ -10,6 +10,7 @@
  padding-top: 60px;
 }
 
+
 .video-paragraph{
     color:white;
     font-family: "Titillium Web", sans-serif;
@@ -48,3 +49,34 @@ video{
     color: white;
     font-size: 20px;
 }
+
+
+/********************** Media 768 px width ***************/
+
+@media only screen and (max-width: 704px) {
+    .react-player{
+        width: 400px;
+        height: 300px;
+        padding-left: 40px;
+    }
+
+    .wrap-video-content{
+        display: flex;
+      
+        flex-direction: column; /* make main-axis vertical */
+        justify-content: center; /* align items vertically, in this case */
+        align-items: center; /* align items horizontally, in this case */
+      
+        background-color: rgb(0, 0, 0);
+     padding-top: 60px;
+    }
+}
+/********************** Media 425px width ***************/
+@media only screen and (max-width: 425px) {
+    .react-player{
+        width: 350px;
+        height: 200px;
+        padding-left: 40px;
+    }
+}
+
