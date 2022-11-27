@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import bitchenfunkandwar from "../videos/bitchenfunkandwar.mp4";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
@@ -30,7 +30,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
+      <div className="top-line"></div>
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
@@ -49,7 +49,9 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
-          <h3>Bitchin’: The Sound and Fury of Rick James – “Funk and War”</h3>
+          <h2 className="video-title">
+            Bitchin’: The Sound and Fury of Rick James – “Funk and War”
+          </h2>
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
           <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
           <p className="video-paragraph">

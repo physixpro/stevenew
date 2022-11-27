@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import dressers from "../videos/dressers.mp4";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
@@ -30,12 +30,12 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <div className="top-line"></div>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,9 +49,14 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
+          <h2 className="video-title">Broken: “Deadly Dressers“ Episode</h2>
+          <h2 className="video-title">A Netflix Original Series</h2>
+          <h2 className="video-sub-title">Director and Writer</h2>
           <p className="video-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            quam!
+            Disposable-furniture companies like IKEA hide known issues like
+            fatally-flimsy construction and environmental destruction behind
+            their eco-friendly images. This scene looks at the issue of illegal
+            logging in the Carpathian forests of Romania.
           </p>
         </div>
       </div>

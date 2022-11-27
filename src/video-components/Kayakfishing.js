@@ -29,7 +29,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-      <div className="top-line"></div>
+
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
@@ -52,7 +52,7 @@ const Musicbox = () => {
             Anthony Bourdain: Parts Unknown – “Uruguay” episode from Season 11
             of Emmy and Peabody-winning CNN series
           </h2>
-          <h3 className="video-title">Kayak Fishing</h3>
+          <h2 className="video-title">Kayak Fishing</h2>
           <h2 className="video-sub-title">Director</h2>
 
           <p className="video-paragraph">

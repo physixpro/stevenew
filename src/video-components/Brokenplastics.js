@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import plastics from "../videos/plastics.mp4";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";

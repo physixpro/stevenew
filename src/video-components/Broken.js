@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import broken from "../videos/broken.mp4";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
@@ -30,7 +30,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
+      <div className="top-line"></div>
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
@@ -49,8 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
-          <h3>Broken</h3>
-          <h3>Trailer</h3>
+          <h2 className="video-title">Broken</h2>
+          <h2 className="video-title">Trailer</h2>
           <h2 className="video-sub-title">A Netflix Original Series</h2>
           <h2 className="video-sub-title">Director</h2>
           <p className="video-paragraph">

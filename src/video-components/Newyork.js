@@ -1,7 +1,6 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import newyork from "../videos/newyork.mp4";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";

@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import ReactPlayer from "react-player";
-import msnbc from "../videos/msnbc.mp4";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
