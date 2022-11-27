@@ -40,7 +40,7 @@ const Musicbox = () => {
       <div className="wrap-video-content">
         <ReactPlayer
           className="react-player"
-          url={broken}
+          url="https://streamable.com/rsv8ka"
           width="558px"
           height="314.36"
           // width="30%"

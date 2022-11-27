@@ -58,7 +58,7 @@ const Work = () => {
       className="motion"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ delay: 1.5, duration: 1.5 }}
+      transition={{ delay: 0.5, duration: 1 }}
     >
       <div data-aos="fade-up" className="video-wrap">
         {/************  music box video link *******/}
