@@ -87,8 +87,9 @@ h3{
     justify-content: center;
 	align-items: center;
     font-family: 'Archivo Black', sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 	color:rgb(255, 255, 255);
+	
 }
 nav a {
 	margin: 0 1rem;
@@ -118,6 +119,7 @@ nav {
 	align-items: center;
 }
 
+/******************** media query 1024px *******************/
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
 		visibility: visible;
@@ -160,13 +162,21 @@ nav {
 
 	h3{
 		color:rgb(255, 255, 255);
-		font-size: x-large;
+	
 		align-items: center;
 	}
 
 	
 }
 
+
+/***************************** MEDIA 768PX ********************/
+@media only screen and (max-width: 768px){
+
+	h3{
+		font-size: 15px;
+	}
+}
 
 /********************** Media 425 px width ***************/
 
@@ -195,7 +205,10 @@ nav {
 	header .responsive_nav {
 		z-index: 9000;
 		transform: none;
-		background-color: red;
+		background-color: black;
+	
+	height: 130vh;
+	width: 58vh;
 	}
 
 	nav .nav-close-btn {
@@ -208,8 +221,55 @@ nav {
 		font-size: 1.5rem;
 	}
 
+	.player-wrapper{
+		margin-left: 35px;
+	}
 	
+	h1{
+		margin-left: 35px;
+	}
+	h3{
+		font-size: 13px;
+		text-align: center;
+		margin-left: 35px;
+	}
 
+	/********************** Media 375 px width ***************/
+
+@media only screen and (max-width: 375px){
+
+	.player-wrapper{
+		margin-left: 100px;
+	}
+	
+	h1{
+		padding-top: 50px;
+		margin-left: 45px;
+		font-size: 30px;
+	}
+	h3{
+		font-size: 11px;
+		text-align: center;
+		margin-left: 45px;
+	}
+}
+
+	/********************** Media 320 px width ***************/
+
+	@media only screen and (max-width: 320px){
+		.player-wrapper{
+ margin-left: 90px;	
+		}
+		h1{
+			
+			font-size: 27px;
+		}
+		h3{
+			font-size: 10px;
+			text-align: center;
+			
+		}
+	}
 
 	
 }

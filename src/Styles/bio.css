@@ -55,3 +55,37 @@ text-align: left;
   width: 500px;
   height: 300px;
 }
+/************************* media 425 px *****************************/
+
+@media only screen and (max-width: 425px){
+
+  .top-line{
+    border: 1px solid red;
+    margin-right: 30%;
+    margin-left: 15%;
+    width: 300px;
+   
+  }
+
+  /************************* media 375 px *****************************/
+
+@media only screen and (max-width: 375px){
+
+  .top-line{
+    border: 1px solid red;
+    margin-right: 30%;
+    margin-left: 3%;
+    width: 300px;
+   
+  }
+}
+
+ /************************* media 320 px *****************************/
+
+ @media only screen and (max-width: 320px){
+  
+ }
+
+
+
+}
