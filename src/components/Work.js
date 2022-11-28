@@ -63,6 +63,9 @@ const Work = () => {
       <div data-aos="fade-up" className="video-wrap">
         {/************  music box video link *******/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            You’re Watching Video Music Box - Trailer
+          </div>
           <div className="video">
             <Link
               to="/musicbox"
@@ -95,6 +98,9 @@ const Work = () => {
         <br />
         {/********* bitchen video link  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Bitchin’: The Sound and Fury of Rick James – Trailer
+          </div>
           <div className="video" id="box2">
             <Link
               to="/bitchen"
@@ -126,6 +132,9 @@ const Work = () => {
         <br />
         {/**********bitchen funk and fury video link******* */}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Bitchin’: The Sound and Fury of Rick James – Selected Scene
+          </div>
           <div className="video" id="box3">
             <Link
               to="/funkandwar"
@@ -157,6 +166,9 @@ const Work = () => {
         <br />
         {/********* BEGINNING OF ROW 2 - ANTHONEY BORDAIN KAYAK FISHING ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Anthony Bourdain: Parts Unknown – Kayak Fishing
+          </div>
           <div className="video" id="box11">
             <Link
               to="/kayakfishing"
@@ -188,6 +200,7 @@ const Work = () => {
         <br />
         {/********* Broken - Trailer  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">Broken - Trailer</div>
           <div className="video" id="box5">
             <Link
               to="/broken"
@@ -219,6 +232,9 @@ const Work = () => {
         <br />
         {/********* ENDING OF ROW 2 - ANTHONEY BORDAIN DRIVE THRU STEAK ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Anthony Bourdain: Parts Unknown – Drive Thru Steak
+          </div>
           <div className="video" id="box11">
             <Link
               to="/drivethrusteak"
@@ -250,6 +266,7 @@ const Work = () => {
         <br />
         {/********* rollinglikethunder video link  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">Rolling Like Thunder - Trailer</div>
           <div className="video" id="box4">
             <Link
               to="/rollinglikethunder"
@@ -281,6 +298,9 @@ const Work = () => {
         <br />
         {/********* broken -deadly dressers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Broken: Deadly Dressers – Selected Scene
+          </div>
           <div className="video" id="box11">
             <Link
               to="/deadlydressers"
@@ -312,6 +332,9 @@ const Work = () => {
         <br />
         {/********* broken plastics  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Broken: Recycling Sham – Selected Scene
+          </div>
           <div className="video" id="box11">
             <Link
               to="/plastics"
@@ -344,6 +367,7 @@ const Work = () => {
 
         {/********* Invisible killers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">Invisible Killers - Trailer</div>
           <div className="video" id="box6">
             <Link
               to="/invisiblekillers"
@@ -382,6 +406,9 @@ const Work = () => {
               onMouseLeave={() => setHoverOverImageEleven(false)}
             >
               <motion.button whileHover={{ scale: 1.1 }}>
+                <div className="video-text">
+                  Invisible Killers: Influenza – Selected Scenes
+                </div>
                 {hoverOverImageEleven ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -406,6 +433,9 @@ const Work = () => {
         <br />
         {/********* ivisible killers, smallpox ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Invisible Killers: Smallpox – Selected Scenes
+          </div>
           <div className="video" id="box11">
             <Link
               to="/smallpox"
@@ -437,6 +467,9 @@ const Work = () => {
         <br />
         {/********* Trulnside: Heathers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            TruInside: Heathers – Selected Scenes
+          </div>
           <div className="video" id="box11">
             <Link
               to="/heather"
@@ -468,6 +501,9 @@ const Work = () => {
         <br />
         {/********* Morgan spurlock - inside man csi bomb training ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Morgan Spurlock Inside Man – Selected Scene
+          </div>
           <div className="video" id="box11">
             <Link
               to="/insideman"
@@ -499,6 +535,7 @@ const Work = () => {
         <br />
         {/********* carvalhos journey ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">Carvalho’s Journey – Selected Scene</div>
           <div className="video" id="box11">
             <Link
               to="/carvalhos"
@@ -530,6 +567,9 @@ const Work = () => {
         <br />
         {/********* The Vice Guide  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            The Vice Guide To Everything – Selected Scene
+          </div>
           <div className="video" id="box7">
             <Link
               to="/theviceguide"
@@ -561,6 +601,7 @@ const Work = () => {
         <br />
         {/********* drs exoneration ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">Death Row Stories – Selected Scene</div>
           <div className="video" id="box11">
             <Link
               to="/exoneration"
@@ -592,6 +633,9 @@ const Work = () => {
         <br />
         {/********* Fatal Encounters  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            Fatal Encounters: Terror in the Woods – Selected Scene
+          </div>
           <div className="video" id="box8">
             <Link
               to="/fatalencounters"
@@ -623,6 +667,9 @@ const Work = () => {
         <br />
         {/*********   MSNBC ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            MSNBC – Wikileaks Video – Selected Scene
+          </div>
           <div className="video" id="box11">
             <Link
               to="/msnbc"
@@ -654,6 +701,9 @@ const Work = () => {
         <br />
         {/********* New York : A documentary film  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">
+            New York: A Documentary Film – Selected Scene
+          </div>
           <div className="video" id="box10">
             <Link
               to="/newyork"
@@ -685,6 +735,7 @@ const Work = () => {
         <br />
         {/********* Eugene O'Neil  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">Eugene O’Neill – Selected Scene</div>
           <div className="video" id="box9">
             <Link
               to="/eugeneoneil"
@@ -716,6 +767,7 @@ const Work = () => {
         <br />
         {/********* The bottle - music video  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className="video-text">The Bottle: Music Video</div>
           <div className="video" id="box11">
             <Link
               to="/thebottle"
