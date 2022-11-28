@@ -30,12 +30,12 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
+      <div className="top-line"></div>
       <h1>DOCUMENTARY FILMMAKER</h1>
 
       <></>
 
-      <h1>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h1>
+      <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
 
       <div className="wrap-video-content">
         <ReactPlayer
@@ -49,8 +49,10 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
-          <h3>Invisible Killers: Influenza</h3>
-          <h3>A 3-part Documentary Series for Discovery</h3>
+          <h2 className="video-title">Invisible Killers: Influenza</h2>
+          <h2 className="video-title">
+            A 3-part Documentary Series for Discovery
+          </h2>
           <h2 className="video-sub-title">Director/Producer</h2>
           <p className="video-paragraph">
             ‘Influenza’ delves into the astonishing history and impact of this

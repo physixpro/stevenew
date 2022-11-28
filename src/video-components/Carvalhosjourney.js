@@ -30,7 +30,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
+      <div className="top-line"></div>
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
@@ -49,7 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
-          <h2 className="video-sub-title">A Documentary Film by Steve Rivo</h2>
+          <h2 className="video-title">Carvalho’s Journey</h2>
+          <h2 className="video-title">A Documentary Film by Steve Rivo</h2>
           <h2 className="video-sub-title">Director, Producer, Writer</h2>
           <p className="video-paragraph">
             A real-life 19th century American western adventure story,

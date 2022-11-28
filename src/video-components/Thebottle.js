@@ -30,7 +30,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-
+      <div className="top-line"></div>
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
@@ -49,8 +49,8 @@ const Musicbox = () => {
           playing={true}
         />
         <div className="p-wrapper">
-          <h3>The Bottle</h3>
-          <h2 className="video-sub-title">
+          <h2 className="video-title">The Bottle</h2>
+          <h2 className="video-title">
             Music Video for legendary artist Gil Scott-Heron’s classic song “The
             Bottle”
           </h2>
