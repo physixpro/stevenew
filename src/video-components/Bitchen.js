@@ -17,9 +17,9 @@ const Musicbox = () => {
         <nav ref={navRef}>
           <Link to="/bio">BIO</Link> {/*TEST ROUTER LINK FOR BIO*/}
           <a href="/#">Work</a>
-          <a href="/#">CV</a>
-          <a href="/#">Press</a>
-          <a href="/#">Contact</a>
+          <a href="/cv">CV</a>
+          <a href="/press">Press</a>
+          <a href="/contact">Contact</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>

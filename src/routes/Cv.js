@@ -21,7 +21,7 @@ const Cv = () => {
           <a href="/#">Work</a>
           <a href="/cv">CV</a>
           <Link to="/press">Press</Link>
-          <a href="/#">Contact</a>
+          <a href="/contact">Contact</a>
           <Link to="/bio">BIO</Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />

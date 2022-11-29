@@ -73,37 +73,42 @@ img {
   filter: alpha(opacity=40);
 }
 
-/* img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=100);
-} */
-/* 
-#box1-video{
-    z-index: 1000;
-} */
+/************************* media 2560 px ******************/
+@media only screen and (max-width: 2560px) {
+  .motion-button {
+    border: none;
+  }
+}
 
-/* #box1.video:after{
-    content: '';
-    position: absolute;
-    top: calc(-1 * var(--borderWidth));
-    left: calc(-1 * var(--borderWidth));
-    height: calc(100% + var(--borderWidth) * 2);
-    width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    border-radius: calc(2 * var(--borderWidth));
-    z-index: -1;
-    animation: animatedgradient 3s ease alternate infinite;
-    background-size: 300% 300%;
-} */
+/************************* media 1440 px ******************/
+@media only screen and (max-width: 1440px) {
+  .video {
+    z-index: 4000;
+    --borderWidth: 3px;
+    background: #000000;
+    position: relative;
+    padding: 30px;
+    border-radius: var(--borderWidth);
+  }
+  img {
+    width: 400px;
+    height: 220px;
+  }
+  .motion-button {
+    border: none;
+  }
+}
 
-/* 
-.image-wrap{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-
+/**************************** media 1024px *********************/
 @media only screen and (max-width: 1024px) {
+  .video {
+    z-index: 4000;
+    --borderWidth: 3px;
+    background: #000000;
+    position: relative;
+    padding: 10px;
+    border-radius: var(--borderWidth);
+  }
   img {
     width: 300px;
     height: 220px;
@@ -112,8 +117,14 @@ img {
   .motion-button {
     border: none;
   }
+  .video-text {
+    color: red;
+    max-width: 400px;
+    visibility: visible;
+    font-weight: bold;
+  }
 }
-
+/************************* media 768 px ******************/
 @media only screen and (max-width: 768px) {
   img {
     width: 200px;
@@ -135,7 +146,7 @@ img {
     visibility: visible;
     font-weight: bold;
   }
-
+  /************************* media 425 px ******************/
   @media only screen and (max-width: 425px) {
     img {
       width: 350px;
@@ -145,6 +156,18 @@ img {
     .video-text {
       max-width: 350px;
       font-size: 20px;
+    }
+  }
+  /************************* media 325px ******************/
+  @media only screen and (max-width: 325px) {
+    img {
+      width: 300px;
+      height: 220px;
+      padding-bottom: 40px;
+    }
+    .video-text {
+      max-width: 350px;
+      font-size: 15px;
     }
   }
 }
