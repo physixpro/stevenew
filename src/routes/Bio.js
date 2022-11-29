@@ -93,6 +93,12 @@ const Bio = () => {
           University, where he has taught in their MFA program. He lives in
           Brooklyn, NY with his family.
         </p>
+
+        <div className="center">
+          <Link to="/files/steve-resume.pdf" target="_blank" download>
+            <button id="cv-button">Download Resume</button>
+          </Link>
+        </div>
       </div>
 
       <div className="bottom-line"></div>

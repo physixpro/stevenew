@@ -8,6 +8,11 @@
   background-color: #000000;
 }
 
+.center {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 .bio-header {
   justify-content: center;
 }
@@ -54,6 +59,11 @@ p {
   margin-right: auto;
   width: 500px;
   height: 300px;
+}
+
+/************************* media 768 px *****************************/
+
+@media only screen and (max-width: 768px) {
 }
 /************************* media 425 px *****************************/
 
