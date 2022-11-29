@@ -1,48 +1,48 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
-	z-index: 8000;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  z-index: 8000;
 }
-nav{
-	/* background: linear-gradient(
+nav {
+  /* background: linear-gradient(
       to right,
       rgb(0, 0, 0) 0%,
       rgb(0, 0, 0) 70%,
       rgb(255, 255, 255) 20%,
       rgb(255, 255, 255) 100%); */
-	color: var(--textColor);
-	font-size: 25px;
+  color: var(--textColor);
+  font-size: 25px;
 }
 
-.nav-header{
-	/* background: linear-gradient(
+.nav-header {
+  /* background: linear-gradient(
       to right,
       rgb(0, 0, 0) 0%,
       rgb(0, 0, 0) 70%,
       rgb(255, 255, 255) 20%,
       rgb(255, 255, 255) 100%); */
-	color: var(--textColor);
+  color: var(--textColor);
 }
 
 :root {
-	--mainColor: #000000;
-	--mainColorLight: #5767aa;
-	--secondaryColor: #db2b39;
-	--textColor: #eee;
+  --mainColor: #000000;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #db2b39;
+  --textColor: #eee;
 }
 
-.sub-heading{
-	font-size: 20px;
-	display: flex;
-    justify-content: center;
-	align-items: center;
-    font-family: 'EB Garamond', serif;
-    letter-spacing: 20px;
-	color:rgb(255, 255, 255);
+.sub-heading {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "EB Garamond", serif;
+  letter-spacing: 20px;
+  color: rgb(255, 255, 255);
 }
 
 /* h1 {
@@ -69,207 +69,191 @@ nav{
 	color: var(--textColor);
 } */
 
-
-h1{
-	font-size: 41px;
-	display: flex;
-    justify-content: center;
-	align-items: center;
-	font-family: 'Archivo Black', sans-serif;
-    /* font-family: 'EB Garamond', serif; */
-    letter-spacing: none;
-	color:rgb(255, 255, 255);
+h1 {
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Archivo Black", sans-serif;
+  /* font-family: 'EB Garamond', serif; */
+  letter-spacing: none;
+  color: rgb(255, 255, 255);
 }
 
-h3{
-	
-	display: flex;
-    justify-content: center;
-	align-items: center;
-    font-family: 'Archivo Black', sans-serif;
-    letter-spacing: 5px;
-	color:rgb(255, 255, 255);
-	
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
 }
 nav a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
 }
 
 nav a:hover {
-	color: var(--secondaryColor);
+  color: var(--secondaryColor);
 }
 
 header .nav-btn {
-	padding: 5px;
-	cursor: pointer;
-	background: transparent;
-	border: none;
-	outline: none;
-	color: var(--textColor);
-	visibility: hidden;
-	opacity: 0;
-	font-size: 1.8rem;
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
 }
 
 header div,
 nav {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /******************** media query 1024px *******************/
 @media only screen and (max-width: 1024px) {
-	header .nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
 
-	header nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: var(--mainColor);
-		transition: 1s;
-		transform: translateY(-100vh);
-	}
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
 
-	header .responsive_nav {
-		z-index: 9000;
-		transform: none;
-		background-color: rgb(0, 0, 0);
-	}
+  header .responsive_nav {
+    z-index: 9000;
+    transform: none;
+    background-color: rgb(0, 0, 0);
+  }
 
-	nav .nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-	nav a {
-		font-size: 1.5rem;
-	}
+  nav a {
+    font-size: 1.5rem;
+  }
 
-	
+  h3 {
+    color: rgb(255, 255, 255);
 
-	h3{
-		color:rgb(255, 255, 255);
-	
-		align-items: center;
-	}
-
-	
+    align-items: center;
+  }
 }
 
-
 /***************************** MEDIA 768PX ********************/
-@media only screen and (max-width: 768px){
-
-	h3{
-		font-size: 15px;
-	}
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 15px;
+  }
 }
 
 /********************** Media 425 px width ***************/
 
 @media only screen and (max-width: 425px) {
-	header .nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
 
-	header nav {
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: var(--mainColor);
-		transition: 1s;
-		transform: translateY(-100vh);
-	}
+  header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
 
-	header .responsive_nav {
-		z-index: 9000;
-		transform: none;
-		background-color: black;
-	
-	height: 130vh;
-	width: 58vh;
-	}
+  header .responsive_nav {
+    z-index: 9000;
+    transform: none;
+    background-color: black;
 
-	nav .nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+    height: 130vh;
+    width: 58vh;
+  }
 
-	nav a {
-		font-size: 1.5rem;
-	}
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-	.player-wrapper{
-		margin-left: 35px;
-	}
-	
-	h1{
-		margin-left: 35px;
-	}
-	h3{
-		font-size: 13px;
-		text-align: center;
-		margin-left: 35px;
-	}
+  nav a {
+    font-size: 1.5rem;
+  }
 
-	/********************** Media 375 px width ***************/
+  .player-wrapper {
+    margin-left: 35px;
+  }
 
-@media only screen and (max-width: 375px){
+  h3 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-	.player-wrapper{
-		margin-left: 100px;
-	}
-	
-	h1{
-		padding-top: 50px;
-		margin-left: 45px;
-		font-size: 30px;
-	}
-	h3{
-		font-size: 11px;
-		text-align: center;
-		margin-left: 45px;
-	}
-}
+  /********************** Media 375 px width ***************/
 
-	/********************** Media 320 px width ***************/
+  @media only screen and (max-width: 375px) {
+    .player-wrapper {
+      margin-left: 100px;
+    }
 
-	@media only screen and (max-width: 320px){
-		.player-wrapper{
- margin-left: 90px;	
-		}
-		h1{
-			
-			font-size: 27px;
-		}
-		h3{
-			font-size: 10px;
-			text-align: center;
-			
-		}
-	}
+    h1 {
+      padding-top: 50px;
+      margin-left: 45px;
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 11px;
+      text-align: center;
+      margin-left: 45px;
+    }
+  }
 
-	
+  /********************** Media 320 px width ***************/
+
+  @media only screen and (max-width: 320px) {
+    .player-wrapper {
+      margin-left: 90px;
+    }
+    h1 {
+      font-size: 27px;
+    }
+    h3 {
+      font-size: 10px;
+      text-align: center;
+    }
+  }
 }

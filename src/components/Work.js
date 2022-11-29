@@ -63,16 +63,19 @@ const Work = () => {
       <div data-aos="fade-up" className="video-wrap">
         {/************  music box video link *******/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            You’re Watching Video Music Box - Trailer
-          </div>
           <div className="video">
             <Link
               to="/musicbox"
               onMouseEnter={() => setHoverOverImage(true)}
               onMouseLeave={() => setHoverOverImage(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  You’re Watching Video Music Box - Trailer
+                </div>
                 {hoverOverImage ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -98,16 +101,19 @@ const Work = () => {
         <br />
         {/********* bitchen video link  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Bitchin’: The Sound and Fury of Rick James – Trailer
-          </div>
           <div className="video" id="box2">
             <Link
               to="/bitchen"
               onMouseEnter={() => setHoverOverImageTwo(true)}
               onMouseLeave={() => setHoverOverImageTwo(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Bitchin’: The Sound and Fury of Rick James – Trailer
+                </div>
                 {hoverOverImageTwo ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -132,16 +138,19 @@ const Work = () => {
         <br />
         {/**********bitchen funk and fury video link******* */}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Bitchin’: The Sound and Fury of Rick James – Selected Scene
-          </div>
           <div className="video" id="box3">
             <Link
               to="/funkandwar"
               onMouseEnter={() => setHoverOverImageThree(true)}
               onMouseLeave={() => setHoverOverImageThree(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Bitchin’: The Sound and Fury of Rick James – Selected Scene
+                </div>
                 {hoverOverImageThree ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -166,16 +175,19 @@ const Work = () => {
         <br />
         {/********* BEGINNING OF ROW 2 - ANTHONEY BORDAIN KAYAK FISHING ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Anthony Bourdain: Parts Unknown – Kayak Fishing
-          </div>
           <div className="video" id="box11">
             <Link
               to="/kayakfishing"
               onMouseEnter={() => setHoverOverImageFour(true)}
               onMouseLeave={() => setHoverOverImageFour(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Anthony Bourdain: Parts Unknown – Kayak Fishing
+                </div>
                 {hoverOverImageFour ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -200,14 +212,18 @@ const Work = () => {
         <br />
         {/********* Broken - Trailer  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">Broken - Trailer</div>
           <div className="video" id="box5">
             <Link
               to="/broken"
               onMouseEnter={() => setHoverOverImageFive(true)}
               onMouseLeave={() => setHoverOverImageFive(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">Broken - Trailer</div>
                 {hoverOverImageFive ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -232,16 +248,19 @@ const Work = () => {
         <br />
         {/********* ENDING OF ROW 2 - ANTHONEY BORDAIN DRIVE THRU STEAK ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Anthony Bourdain: Parts Unknown – Drive Thru Steak
-          </div>
           <div className="video" id="box11">
             <Link
               to="/drivethrusteak"
               onMouseEnter={() => setHoverOverImageSix(true)}
               onMouseLeave={() => setHoverOverImageSix(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Anthony Bourdain: Parts Unknown – Drive Thru Steak
+                </div>
                 {hoverOverImageSix ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -266,14 +285,17 @@ const Work = () => {
         <br />
         {/********* rollinglikethunder video link  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">Rolling Like Thunder - Trailer</div>
           <div className="video" id="box4">
             <Link
               to="/rollinglikethunder"
               onMouseEnter={() => setHoverOverImageSeven(true)}
               onMouseLeave={() => setHoverOverImageSeven(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">Rolling Like Thunder - Trailer</div>
                 {hoverOverImageSeven ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -298,16 +320,19 @@ const Work = () => {
         <br />
         {/********* broken -deadly dressers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Broken: Deadly Dressers – Selected Scene
-          </div>
           <div className="video" id="box11">
             <Link
               to="/deadlydressers"
               onMouseEnter={() => setHoverOverImageEight(true)}
               onMouseLeave={() => setHoverOverImageEight(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Broken: Deadly Dressers – Selected Scene
+                </div>
                 {hoverOverImageEight ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -332,16 +357,19 @@ const Work = () => {
         <br />
         {/********* broken plastics  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Broken: Recycling Sham – Selected Scene
-          </div>
           <div className="video" id="box11">
             <Link
               to="/plastics"
               onMouseEnter={() => setHoverOverImageNine(true)}
               onMouseLeave={() => setHoverOverImageNine(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Broken: Recycling Sham – Selected Scene
+                </div>
                 {hoverOverImageNine ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -367,14 +395,17 @@ const Work = () => {
 
         {/********* Invisible killers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">Invisible Killers - Trailer</div>
           <div className="video" id="box6">
             <Link
               to="/invisiblekillers"
               onMouseEnter={() => setHoverOverImageTen(true)}
               onMouseLeave={() => setHoverOverImageTen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">Invisible Killers - Trailer</div>
                 {hoverOverImageTen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -405,7 +436,10 @@ const Work = () => {
               onMouseEnter={() => setHoverOverImageEleven(true)}
               onMouseLeave={() => setHoverOverImageEleven(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
                 <div className="video-text">
                   Invisible Killers: Influenza – Selected Scenes
                 </div>
@@ -433,16 +467,19 @@ const Work = () => {
         <br />
         {/********* ivisible killers, smallpox ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Invisible Killers: Smallpox – Selected Scenes
-          </div>
           <div className="video" id="box11">
             <Link
               to="/smallpox"
               onMouseEnter={() => setHoverOverImageTwelve(true)}
               onMouseLeave={() => setHoverOverImageTwelve(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Invisible Killers: Smallpox – Selected Scenes
+                </div>
                 {hoverOverImageTwelve ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -467,16 +504,19 @@ const Work = () => {
         <br />
         {/********* Trulnside: Heathers ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            TruInside: Heathers – Selected Scenes
-          </div>
           <div className="video" id="box11">
             <Link
               to="/heather"
               onMouseEnter={() => setHoverOverImageThirteen(true)}
               onMouseLeave={() => setHoverOverImageThirteen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  TruInside: Heathers – Selected Scenes
+                </div>
                 {hoverOverImageThirteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -501,16 +541,20 @@ const Work = () => {
         <br />
         {/********* Morgan spurlock - inside man csi bomb training ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Morgan Spurlock Inside Man – Selected Scene
-          </div>
           <div className="video" id="box11">
             <Link
               to="/insideman"
               onMouseEnter={() => setHoverOverImageFourteen(true)}
               onMouseLeave={() => setHoverOverImageFourteen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">
+                  Morgan Spurlock Inside Man – Selected Scene
+                </div>
                 {hoverOverImageFourteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -535,14 +579,19 @@ const Work = () => {
         <br />
         {/********* carvalhos journey ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">Carvalho’s Journey – Selected Scene</div>
           <div className="video" id="box11">
             <Link
               to="/carvalhos"
               onMouseEnter={() => setHoverOverImageFifteen(true)}
               onMouseLeave={() => setHoverOverImageFifteen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  Carvalho’s Journey – Selected Scene
+                </div>
                 {hoverOverImageFifteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -567,16 +616,19 @@ const Work = () => {
         <br />
         {/********* The Vice Guide  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            The Vice Guide To Everything – Selected Scene
-          </div>
           <div className="video" id="box7">
             <Link
               to="/theviceguide"
               onMouseEnter={() => setHoverOverImageSixteen(true)}
               onMouseLeave={() => setHoverOverImageSixteen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  The Vice Guide To Everything – Selected Scene
+                </div>
                 {hoverOverImageSixteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -601,14 +653,20 @@ const Work = () => {
         <br />
         {/********* drs exoneration ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">Death Row Stories – Selected Scene</div>
           <div className="video" id="box11">
             <Link
               to="/exoneration"
               onMouseEnter={() => setHoverOverImageSeventeen(true)}
               onMouseLeave={() => setHoverOverImageSeventeen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">
+                  Death Row Stories – Selected Scene
+                </div>
                 {hoverOverImageSeventeen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -633,16 +691,20 @@ const Work = () => {
         <br />
         {/********* Fatal Encounters  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            Fatal Encounters: Terror in the Woods – Selected Scene
-          </div>
           <div className="video" id="box8">
             <Link
               to="/fatalencounters"
               onMouseEnter={() => setHoverOverImageEighteen(true)}
               onMouseLeave={() => setHoverOverImageEighteen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">
+                  Fatal Encounters: Terror in the Woods – Selected Scene
+                </div>
                 {hoverOverImageEighteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -667,16 +729,20 @@ const Work = () => {
         <br />
         {/*********   MSNBC ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            MSNBC – Wikileaks Video – Selected Scene
-          </div>
           <div className="video" id="box11">
             <Link
               to="/msnbc"
               onMouseEnter={() => setHoverOverImageNineteen(true)}
               onMouseLeave={() => setHoverOverImageNineteen(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">
+                  MSNBC – Wikileaks Video – Selected Scene
+                </div>
                 {hoverOverImageNineteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -701,16 +767,19 @@ const Work = () => {
         <br />
         {/********* New York : A documentary film  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">
-            New York: A Documentary Film – Selected Scene
-          </div>
           <div className="video" id="box10">
             <Link
               to="/newyork"
               onMouseEnter={() => setHoverOverImageTwenty(true)}
               onMouseLeave={() => setHoverOverImageTwenty(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="video-text">
+                  New York: A Documentary Film – Selected Scene
+                </div>
                 {hoverOverImageTwenty ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -735,14 +804,20 @@ const Work = () => {
         <br />
         {/********* Eugene O'Neil  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">Eugene O’Neill – Selected Scene</div>
           <div className="video" id="box9">
             <Link
               to="/eugeneoneil"
               onMouseEnter={() => setHoverOverImageTwentyone(true)}
               onMouseLeave={() => setHoverOverImageTwentyone(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">
+                  Eugene O’Neill – Selected Scene
+                </div>
                 {hoverOverImageTwentyone ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -767,14 +842,18 @@ const Work = () => {
         <br />
         {/********* The bottle - music video  ********/}
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <div className="video-text">The Bottle: Music Video</div>
           <div className="video" id="box11">
             <Link
               to="/thebottle"
               onMouseEnter={() => setHoverOverImageTwentytwo(true)}
               onMouseLeave={() => setHoverOverImageTwentytwo(false)}
             >
-              <motion.button whileHover={{ scale: 1.1 }}>
+              <motion.button
+                className="motion-button"
+                whileHover={{ scale: 1.1 }}
+              >
+                {" "}
+                <div className="video-text">The Bottle: Music Video</div>
                 {hoverOverImageTwentytwo ? (
                   <img
                     style={{ cursor: "pointer" }}
