@@ -18,7 +18,7 @@ function Navbar() {
       <header className="nav-header">
         <nav id="main-nav" ref={navRef}>
           <a href="/#">Work</a>
-          <a href="/cv">CV</a>
+          {/* <a href="/cv">CV</a> */}
           <Link to="/press">Press</Link>
           <a href="/contact">Contact</a>
           <Link to="/bio">BIO</Link>

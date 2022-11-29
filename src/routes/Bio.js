@@ -47,7 +47,7 @@ const Bio = () => {
           width="400px"
           height="200px"
         />
-        <p>
+        <p className="bio-paragraph">
           Steve Rivo is an award-winning documentary maker known for powerful
           and intelligent storytelling, expert craftmanship and high production
           value projects. Across a 25-year career, he has executive produced,

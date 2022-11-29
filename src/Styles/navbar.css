@@ -206,7 +206,7 @@ nav {
     background-color: black;
 
     height: 130vh;
-    width: 50vh;
+    /* width: 65vh; */
   }
 
   nav .nav-close-btn {
@@ -223,44 +223,43 @@ nav {
     margin-left: 35px;
   }
 
+  h1 {
+    padding-right: 30px;
+  }
+
   h3 {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    align-items: center;
+    padding-right: 28px;
+  }
+}
+/********************** Media 375 px width ***************/
+
+@media only screen and (max-width: 375px) {
+  header .responsive_nav {
+    width: 45vh;
   }
 
-  /********************** Media 375 px width ***************/
+  h1 {
+    padding-top: 50px;
 
-  @media only screen and (max-width: 375px) {
-    .player-wrapper {
-      margin-left: 100px;
-    }
-
-    header .responsive_nav {
-      width: 45vh;
-    }
-
-    h1 {
-      padding-top: 50px;
-
-      font-size: 30px;
-    }
-    h3 {
-      font-size: 10px;
-      text-align: center;
-    }
+    font-size: 30px;
   }
+  h3 {
+    font-size: 10px;
+    text-align: center;
+  }
+}
 
-  /********************** Media 320 px width ***************/
+/********************** Media 320 px width ***************/
 
-  @media only screen and (max-width: 320px) {
-    h1 {
-      font-size: 27px;
-    }
-    h3 {
-      font-size: 9px;
-      text-align: center;
-    }
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 8px;
+    text-align: center;
   }
 }

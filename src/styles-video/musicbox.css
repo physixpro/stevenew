@@ -1,137 +1,212 @@
+.wrap-video-content {
+  display: flex;
 
-.wrap-video-content{
-    display: flex;
-  
-    flex-direction: column; /* make main-axis vertical */
-    justify-content: center; /* align items vertically, in this case */
-    align-items: center; /* align items horizontally, in this case */
-  
-    background-color: rgb(0, 0, 0);
- padding-top: 60px;
+  flex-direction: column; /* make main-axis vertical */
+  justify-content: center; /* align items vertically, in this case */
+  align-items: center; /* align items horizontally, in this case */
+
+  background-color: rgb(0, 0, 0);
+  padding-top: 60px;
 }
 
-
-  
-.video-paragraph{
-    color:white;
-    font-family: "Titillium Web", sans-serif;
-    text-align: center;
+.video-paragraph {
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
 }
 
-.video-sub-title{
-    color: white;
-    
-    font-family: "Titillium Web", sans-serif;
-    font-size: 15px;
+.video-sub-title {
+  color: white;
+
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
 }
 
-.p-wrapper{
-    display: flex;
-  
-    flex-direction: column; /* make main-axis vertical */
-    justify-content: center; /* align items vertically, in this case */
-    align-items: center; 
-    padding-top: 50px;
-    
+.p-wrapper {
+  display: flex;
+
+  flex-direction: column; /* make main-axis vertical */
+  justify-content: center; /* align items vertically, in this case */
+  align-items: center;
+  padding-top: 50px;
 }
 
-video{
-    border: 3px solid white;
+video {
+  border: 3px solid white;
 }
 
-
-.react-player{
-    width: 558px;
-    height: 314.36px;
+.react-player {
+  width: 558px;
+  height: 314.36px;
 }
 
-.video-title{
-    font-family: "Titillium Web", sans-serif;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-
+.video-title {
+  font-family: "Titillium Web", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
-
 
 /********************** Media 768 px width ***************/
 
 @media only screen and (max-width: 768px) {
-    .react-player{
-        width: 400px;
-        height: 300px;
-       
-        
-    }
+  .react-player {
+    width: 400px;
+    height: 300px;
+  }
 
-    .wrap-video-content{
-        display: flex;
-        flex-direction: column; /* make main-axis vertical */
-        justify-content: center; /* align items vertically, in this case */
-        align-items: center; /* align items horizontally, in this case */
-      
-        background-color: rgb(0, 0, 0);
-     padding-top: 60px;
-    }
-    .video-title{
-        font-family: "Titillium Web", sans-serif;
-        color: white;
-        font-size: 15px;
-        max-width: 500px;
-        text-align: center;
-        padding-bottom: 40px;
-        letter-spacing:1px;
-    }
+  .wrap-video-content {
+    display: flex;
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
 
-    .p-wrapper{
-        display: flex;
-      
-        flex-direction: column; /* make main-axis vertical */
-        justify-content: center; /* align items vertically, in this case */
-        align-items: center; 
-        padding-top: 50px;
-        letter-spacing: 1px;
-        max-width: 558px;
-    }
-    .video-paragraph{
-        color:white;
-        font-family: "Titillium Web", sans-serif;
-        text-align: center;
-        width: 550px;
-    }
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px;
+  }
+  .video-title {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 15px;
+    max-width: 500px;
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
+
+  .p-wrapper {
+    display: flex;
+
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center;
+    padding-top: 50px;
+    letter-spacing: 1px;
+    max-width: 558px;
+  }
+  .video-paragraph {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    width: 550px;
+  }
 }
 /********************** Media 425px width ***************/
 @media only screen and (max-width: 425px) {
-    .react-player{
-        width: 350px;
-        height: 200px;
-        padding-left: 40px;
-    }
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .react-player {
+    width: 100%;
+    height: 200px;
+  }
 
-    .video-title{
-        font-family: "Titillium Web", sans-serif;
-        color: white;
-        font-size: 15px;
-        max-width: 300px;
-        text-align: center;
-        padding-bottom: 40px;
-        letter-spacing:1px;
-        margin-left: 35px;
-    }
-    .video-paragraph{
-        color:white;
-        font-family: "Titillium Web", sans-serif;
-        text-align: center;
-        width: 500px;
-        margin-left: 35px;
-    }
+  .video-title {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 15px;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
+  .video-paragraph {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    max-width: 450px;
+  }
 
-    .video-sub-title{
-        color: white;
-        
-        font-family: "Titillium Web", sans-serif;
-        font-size: 15px;
-        margin-left: 35px;
-    }
+  .video-sub-title {
+    color: white;
+
+    font-family: "Titillium Web", sans-serif;
+    font-size: 15px;
+  }
+
+  .wrap-video-content {
+    margin-right: 35px;
+  }
 }
 
+/********************** Media 375px width ***************/
+@media only screen and (max-width: 375px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .react-player {
+    width: 80%;
+    height: 200px;
+  }
+
+  .video-title {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 15px;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
+  .video-paragraph {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .video-sub-title {
+    color: white;
+
+    font-family: "Titillium Web", sans-serif;
+    font-size: 15px;
+  }
+
+  .wrap-video-content {
+    margin-right: 35px;
+  }
+}
+
+/********************** Media 320px width ***************/
+@media only screen and (max-width: 320px) {
+  html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .react-player {
+    max-width: 100%;
+  }
+
+  .video-title {
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    font-size: 12px;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
+  .video-paragraph {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    max-width: 400px;
+    font-size: 12px;
+  }
+
+  .video-sub-title {
+    color: white;
+
+    font-family: "Titillium Web", sans-serif;
+    font-size: 10px;
+  }
+
+  .wrap-video-content {
+    max-width: 85%;
+  }
+}
