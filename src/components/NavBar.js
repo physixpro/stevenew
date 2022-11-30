@@ -18,9 +18,9 @@ function Navbar() {
     <div>
       <header className="nav-header">
         <nav id="main-nav" ref={navRef}>
-          <a href="/#">Work</a>
+          <Link to="/#">Work</Link>
           <Link to="/bio">Bio</Link>
-          <a href="/press">Press</a>
+          <Link to="/press">Press</Link>
           <Link to="/contact">Contact</Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
