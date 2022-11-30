@@ -87,6 +87,7 @@ h3 {
   font-family: "Archivo Black", sans-serif;
   letter-spacing: 5px;
   color: rgb(255, 255, 255);
+  padding-top: 20px;
 }
 nav a {
   margin: 0 1rem;
@@ -223,6 +224,12 @@ nav {
     margin-left: 35px;
   }
 
+  #fix-425-h1 {
+    padding-left: 25px;
+  }
+  #fix-425-h3 {
+    padding-left: 25px;
+  }
   h1 {
     padding-right: 30px;
   }

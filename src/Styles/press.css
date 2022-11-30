@@ -58,11 +58,11 @@
   .press {
     display: flex;
     flex-direction: column;
-    line-height: 50px;
+    line-height: 70px;
     align-items: center;
+
     margin-left: 40px;
     margin-right: 40px;
-    list-style-type: circle;
   }
 }
 /************************* media 768 px ******************/
@@ -70,9 +70,21 @@
   .press {
     display: flex;
     flex-direction: column;
-    line-height: 50px;
+    line-height: 60px;
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  li {
+    line-height: 30px;
+  }
+}
+/************************* media 425 px ******************/
+@media only screen and (max-width: 425px) {
+  #press-title {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 29px;
   }
 }

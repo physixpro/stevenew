@@ -94,6 +94,14 @@ p {
     width: 400px;
     text-align: center;
   }
+
+  #steve-bio {
+    padding-left: 25px;
+  }
+
+  #steve-bio-sub {
+    padding-left: 25px;
+  }
 }
 /************************* media 379 px *****************************/
 
@@ -103,6 +111,10 @@ p {
     margin-left: 80px;
     max-width: 210px;
   }
+  #bio-paragraph {
+    padding-right: 85px;
+    padding-top: 10px;
+  }
 }
 
 /************************* media 375 px *****************************/
@@ -111,8 +123,8 @@ p {
   .top-line {
     border: 1px solid red;
 
-    margin-left: 16%;
-    width: 200px;
+    margin-left: 24%;
+    width: 150px;
   }
 }
 
@@ -121,7 +133,13 @@ p {
 @media only screen and (max-width: 320px) {
   .top-line {
     border: 1px solid red;
-    margin-left: 28px;
-    max-width: 200px;
+    margin-left: 27%;
+    max-width: 100px;
+  }
+
+  #bio-paragraph {
+    font-size: smaller;
+    padding-right: 140px;
+    padding-top: 10px;
   }
 }

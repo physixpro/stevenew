@@ -17,7 +17,6 @@ const Bio = () => {
         <nav ref={navRef}>
           <Link to="/bio">BIO</Link> {/*TEST ROUTER LINK FOR BIO*/}
           <a href="/#">Work</a>
-          <a href="/cv">CV</a>
           <Link to="/press">Press</Link>
           <a href="/contact">Contact</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
@@ -28,14 +27,14 @@ const Bio = () => {
           <FaBars />
         </button>
       </header>
-      <h1>Steve Rivo</h1>
+      <h1 id="steve-bio">Steve Rivo</h1>
       <div className="top-line"></div>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
-        <h3>DOCUMENTARY FILMMAKER</h3>
+        <h3 id="steve-bio-sub">DOCUMENTARY FILMMAKER</h3>
       </AnimationOnScroll>
       <></>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
-        <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
+        <h3 id="steve-bio-sub">SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
       </AnimationOnScroll>
       <header className="bio-header">Bio</header>
 
@@ -47,7 +46,7 @@ const Bio = () => {
           width="400px"
           height="200px"
         />
-        <p className="bio-paragraph">
+        <p id="bio-paragraph">
           Steve Rivo is an award-winning documentary maker known for powerful
           and intelligent storytelling, expert craftmanship and high production
           value projects. Across a 25-year career, he has executive produced,

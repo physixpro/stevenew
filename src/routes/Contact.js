@@ -2,6 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "../Styles/contact.css";
 
 const Contact = () => {
   const navRef = useRef();
@@ -15,7 +16,6 @@ const Contact = () => {
         <nav ref={navRef}>
           <Link to="/bio">BIO</Link> {/*TEST ROUTER LINK FOR BIO*/}
           <a href="/">Work</a>
-          <a href="/cv">CV</a>
           <a href="/press">Press</a>
           <a href="/contact">Contact</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
@@ -27,11 +27,16 @@ const Contact = () => {
         </button>
       </header>
       <div className="contact-wrap">
-        <h1 id="contact-header">DIRECT</h1>
-        <p id="contact-p">steverivo@gmail.com</p>
-
-        <h1 id="contact-header">MAIN LINE</h1>
-        <p id="contact-p">+1 917-488-2134</p>
+        <h4 className="contact-header">Direct</h4>
+        <button className="contact-p">
+          <a href="mailto:steverivo@gmail.com">steverivo@gmail.com</a>{" "}
+        </button>
+        <h4 className="contact-header">Agent: Alan Moore, UTA</h4>
+        <button className="contact-p">
+          <a href="mailto:alan.moore@unitedtalent.com">
+            alan.moore@unitedtalent.com | +1 (424) 363-1100
+          </a>
+        </button>
       </div>
     </div>
   );

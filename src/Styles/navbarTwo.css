@@ -1,0 +1,18 @@
+/********************** Media 425px width ***************/
+@media only screen and (max-width: 425px) {
+  #topline-work-fix {
+    padding-left: 57%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #topline-work-fix {
+    padding-left: 49.5%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #topline-work-fix {
+    padding-left: 43%;
+  }
+}

@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../Styles/navbar.css";
+import "../Styles/navbarTwo.css";
 import Work from "../components/Work";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -18,10 +19,9 @@ function Navbar() {
       <header className="nav-header">
         <nav id="main-nav" ref={navRef}>
           <a href="/#">Work</a>
-          {/* <a href="/cv">CV</a> */}
-          <Link to="/press">Press</Link>
-          <a href="/contact">Contact</a>
-          <Link to="/bio">BIO</Link>
+          <Link to="/bio">Bio</Link>
+          <a href="/press">Press</a>
+          <Link to="/contact">Contact</Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>
@@ -31,14 +31,14 @@ function Navbar() {
         </button>
       </header>
       {/****** headers *********/}
-      <h1>STEVE RIVO</h1>
-      <div className="top-line"></div>
+      <h1 id="fix-425-h1">STEVE RIVO</h1>
+      <div className="top-line" id="topline-work-fix"></div>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
         <h3>DOCUMENTARY FILMMAKER</h3>
       </AnimationOnScroll>
       <></>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
-        <h3>SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
+        <h3 id="fix-425-h3">SHOWRUNNER / DIRECTOR / WRITER / PRODUCER</h3>
       </AnimationOnScroll>
       <Work />
     </div>

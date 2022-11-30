@@ -1,12 +1,22 @@
-#contact-wrap{
-    
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
 }
 
-
-#contact-header{
-
+.contact-header {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(249, 249, 249);
 }
 
-#contact-p{
+a {
+  text-decoration: underline;
+  color: white;
+}
 
+.contact-p {
+  padding-bottom: 80px;
+  font-size: 15px;
+  border: none;
 }
