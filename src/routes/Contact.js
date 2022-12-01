@@ -14,10 +14,10 @@ const Contact = () => {
     <div>
       <header className="nav-header">
         <nav ref={navRef}>
-          <Link to="/bio">BIO</Link> {/*TEST ROUTER LINK FOR BIO*/}
-          <a href="/">Work</a>
-          <a href="/press">Press</a>
-          <a href="/contact">Contact</a>
+          <Link to="/#">Work</Link>
+          <Link to="/bio">Bio</Link>
+          <Link to="/press">Press</Link>
+          <Link to="/contact">Contact</Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>

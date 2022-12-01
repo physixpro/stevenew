@@ -53,11 +53,10 @@ const Fullpage = () => {
     <div>
       <header className="nav-header">
         <nav ref={navRef}>
-          <a href="/#">Work</a>
-
+          <Link to="/#">Work</Link>
+          <Link to="/bio">Bio</Link>
           <Link to="/press">Press</Link>
-          <a href="/contact">Contact</a>
-          <Link to="/bio">BIO</Link>
+          <Link to="/contact">Contact</Link>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>
