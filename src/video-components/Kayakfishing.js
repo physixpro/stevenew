@@ -38,7 +38,6 @@ const Musicbox = () => {
       <div className="wrap-video-content">
         <ReactPlayer
           className="react-player"
-          playsInline={true}
           url="https://streamable.com/liutc5"
           width="558px"
           height="314.36"
