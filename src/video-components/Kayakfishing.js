@@ -38,7 +38,7 @@ const Musicbox = () => {
       <div className="wrap-video-content">
         <ReactPlayer
           className="react-player"
-          url="https://streamable.com/liutc5"
+          url="https://player.vimeo.com/video/774810330?h=869ad9cf59&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           width="558px"
           height="314.36"
           // width="30%"
