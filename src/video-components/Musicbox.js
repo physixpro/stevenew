@@ -4,6 +4,7 @@ import ReactPlayer from "react-player";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
+import "../Styles/navbarTwo.css";
 
 const Musicbox = () => {
   const navRef = useRef();
@@ -28,7 +29,7 @@ const Musicbox = () => {
       </header>
 
       <h1>STEVE RIVO</h1>
-      <div className="top-line"></div>
+      <div id="red-line-video-fix" className="top-line"></div>
       <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
