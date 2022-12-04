@@ -30,7 +30,7 @@ const Musicbox = () => {
 
       <h1>STEVE RIVO</h1>
       <div className="top-line"></div>
-      <h1>DOCUMENTARY FILMMAKER</h1>
+      <h3>DOCUMENTARY FILMMAKER</h3>
 
       <></>
 
@@ -39,7 +39,7 @@ const Musicbox = () => {
       <div className="wrap-video-content">
         <ReactPlayer
           className="react-player"
-          url="https://player.vimeo.com/video/265613173?h=1b97865358&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          url="https://player.vimeo.com/video/774810067?h=b5f3b8958e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           width="558px"
           height="314.36"
           // width="30%"

@@ -134,7 +134,8 @@ video {
 
   .video-sub-title {
     color: white;
-
+    max-width: 300px;
+    text-align: center;
     font-family: "Titillium Web", sans-serif;
     font-size: 15px;
   }
