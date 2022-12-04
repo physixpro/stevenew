@@ -53,6 +53,7 @@ const Bio = () => {
           written and directed dozens of hours of non-fiction television and
           film for most major linear and streaming networks.
           <br></br>
+          <br />
           Recent work includes showrunning the forthcoming hip-hop docuseries
           “RapCaviar Presents,” (a co-production of Spotify and Hulu), producing
           and writing the Showtime documentary films “You’re Watching Video
@@ -62,13 +63,13 @@ const Bio = () => {
           directing on the final season of the Emmy and Peabody- winning
           documentary series &quot;Anthony Bourdain: Parts Unknown,&quot; and
           directing multiple episodes of &quot;Broken,&quot; an investigative
-          docu-series on consumer products for Netflix.<br></br>
+          docu-series on consumer products for Netflix.<br></br> <br />
           Steve has filmed on five continents and worked with a range of
           filmmakers including Alex Gibney, Robert Redford, Morgan Spurlock, Ric
           Burns and Sacha Jenkins. Projects he has produced have won Emmys,
           Du-Pont-Columbia, Peabody, IDA, Telly and Cine Golden Eagle awards and
           his work has screened at numerous festivals including SXSW, Tribeca,
-          Full Frame, and the Nashville Film Festival.<br></br>
+          Full Frame, and the Nashville Film Festival.<br></br> <br />
           Some of Steve’s other broadcast credits include executive producing
           multiple shows for Court TV, VH1 and MTV, senior producing &quot;The
           Vice Guide to Everything&quot; for VICE and MTV, directing and
@@ -84,7 +85,7 @@ const Bio = () => {
           Festival des Cultures Juives in Paris, France. It won the Audience
           Choice Award at the Maine Jewish Film Festival and Best Documentary at
           the Houston Jewish Film Festival. The film aired nationally on PBS.
-          <br></br>
+          <br></br> <br />
           Steve has also completed a number of film projects for brands and
           clients, including Red Bull, Domus, the American Institute of
           Architects and Random House, Inc. A graduate of Columbia University,
