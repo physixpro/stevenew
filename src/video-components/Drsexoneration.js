@@ -45,20 +45,21 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
-          <h2 className="video-title">
-            Death Row Stories – “Blood and Water”{" "}
-          </h2>
-          <h2 className="video-title">
+          <h2 className="video-title">Death Row Stories</h2>
+          <br />
+          <h2 className="video-sub-title">
             A CNN Documentary Series about the death penalty in America
           </h2>
+          <br />
           <h2 className="video-sub-title">Director and Producer</h2>
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
-            Selected Scene from “Blood and Water” which tells the incredible
-            tale of Joe D'Ambrosio, a Cleveland man sentenced to death for
-            murder in 1989, and his decades long quest to prove his innocence.
+            The episode “Blood and Water” (Season 1) tells the incredible tale
+            of Joe D'Ambrosio, a Cleveland man sentenced to death for murder in
+            1989, and his decades long quest to prove his innocence.
           </p>
         </div>
       </div>

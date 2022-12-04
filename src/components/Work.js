@@ -74,7 +74,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 <div className="video-text">
-                  You’re Watching Video Music Box - Trailer
+                  You’re Watching Video Music Box
                 </div>
                 {hoverOverImage ? (
                   <img
@@ -112,7 +112,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 <div className="video-text">
-                  Bitchin’: The Sound and Fury of Rick James – Trailer
+                  Bitchin’: The Sound and Fury of Rick James
                 </div>
                 {hoverOverImageTwo ? (
                   <img
@@ -186,7 +186,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 <div className="video-text">
-                  Anthony Bourdain: Parts Unknown – Kayak Fishing
+                  Anthony Bourdain: Parts Unknown
                 </div>
                 {hoverOverImageFour ? (
                   <img
@@ -223,7 +223,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">Broken - Trailer</div>
+                <div className="video-text">Broken</div>
                 {hoverOverImageFive ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -259,7 +259,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 <div className="video-text">
-                  Anthony Bourdain: Parts Unknown – Drive Thru Steak
+                  Anthony Bourdain: Parts Unknown
                 </div>
                 {hoverOverImageSix ? (
                   <img
@@ -295,7 +295,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">Rolling Like Thunder - Trailer</div>
+                <div className="video-text">Rolling Like Thunder</div>
                 {hoverOverImageSeven ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -330,9 +330,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  Broken: Deadly Dressers – Selected Scene
-                </div>
+                <div className="video-text">Broken: Deadly Dressers</div>
                 {hoverOverImageEight ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -367,9 +365,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  Broken: Recycling Sham – Selected Scene
-                </div>
+                <div className="video-text">Broken: Recycling Sham</div>
                 {hoverOverImageNine ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -405,7 +401,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">Invisible Killers - Trailer</div>
+                <div className="video-text">Invisible Killers</div>
                 {hoverOverImageTen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -440,9 +436,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  Invisible Killers: Influenza – Selected Scenes
-                </div>
+                <div className="video-text">Invisible Killers: Influenza</div>
                 {hoverOverImageEleven ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -477,9 +471,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  Invisible Killers: Smallpox – Selected Scenes
-                </div>
+                <div className="video-text">Invisible Killers: Smallpox</div>
                 {hoverOverImageTwelve ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -514,9 +506,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  TruInside: Heathers – Selected Scenes
-                </div>
+                <div className="video-text">TruInside: Heathers</div>
                 {hoverOverImageThirteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -552,9 +542,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">
-                  Morgan Spurlock Inside Man – Selected Scene
-                </div>
+                <div className="video-text">Morgan Spurlock Inside Man</div>
                 {hoverOverImageFourteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -589,9 +577,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  Carvalho’s Journey – Selected Scene
-                </div>
+                <div className="video-text">Carvalho’s Journey</div>
                 {hoverOverImageFifteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -626,9 +612,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  The Vice Guide To Everything – Selected Scene
-                </div>
+                <div className="video-text">The Vice Guide To Everything</div>
                 {hoverOverImageSixteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -664,9 +648,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">
-                  Death Row Stories – Selected Scene
-                </div>
+                <div className="video-text">Death Row Stories</div>
                 {hoverOverImageSeventeen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -702,9 +684,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">
-                  Fatal Encounters: Terror in the Woods – Selected Scene
-                </div>
+                <div className="video-text">Fatal Encounters</div>
                 {hoverOverImageEighteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -740,9 +720,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">
-                  MSNBC – Wikileaks Video – Selected Scene
-                </div>
+                <div className="video-text">MSNBC – Wikileaks Video</div>
                 {hoverOverImageNineteen ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -777,9 +755,7 @@ const Work = () => {
                 className="motion-button"
                 whileHover={{ scale: 1.1 }}
               >
-                <div className="video-text">
-                  New York: A Documentary Film – Selected Scene
-                </div>
+                <div className="video-text">New York: A Documentary Film</div>
                 {hoverOverImageTwenty ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -815,9 +791,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">
-                  Eugene O’Neill – Selected Scene
-                </div>
+                <div className="video-text">Eugene O’Neill</div>
                 {hoverOverImageTwentyone ? (
                   <img
                     style={{ cursor: "pointer" }}
@@ -853,7 +827,7 @@ const Work = () => {
                 whileHover={{ scale: 1.1 }}
               >
                 {" "}
-                <div className="video-text">The Bottle: Music Video</div>
+                <div className="video-text">The Bottle</div>
                 {hoverOverImageTwentytwo ? (
                   <img
                     style={{ cursor: "pointer" }}

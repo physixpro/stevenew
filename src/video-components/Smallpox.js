@@ -45,14 +45,16 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">Invisible Killers: Smallpox</h2>
-          <h2 className="video-title">
+          <br />
+          <h2 className="video-sub-title">
             A 3-part Documentary Series for Discovery
           </h2>
-          <h2 className="video-sub-title">Selected Scenes</h2>
+          <br />
+
           <h2 className="video-sub-title">Director / Producer</h2>
           <p className="video-paragraph">
             ‘Smallpox’ tells the story of what many people agree is medical

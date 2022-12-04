@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, Route, Routes } from "react-router-dom";
 import "../styles-video/musicbox.css";
-
+import "../Styles/navbarTwo.css";
 const Musicbox = () => {
   const navRef = useRef();
   const showNavbar = () => {
@@ -45,17 +45,20 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">
-            Bitchin’: The Sound and Fury of Rick James – “Funk and War”
+            Bitchin’: The Sound and Fury of Rick James
           </h2>
+          <br />
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
+          <br />
           <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
-          <p className="video-paragraph">
-            Scene excerpt featuring interview with Bootsy Collins (Selected
-            Scene)
+          <br />
+          <h5 className="video-trailer">Selected Scene – “Funk and War”</h5>
+          <p className="video-paragraph" id="funkandwar-paragraph-fix">
+            Scene excerpt featuring interview with Bootsy Collins
           </p>
         </div>
       </div>

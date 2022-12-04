@@ -45,21 +45,24 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">
             Fatal Encounters – “Terror in the Woods”
           </h2>
+          <br />
           <h2 className="video-sub-title">
             True Crime series for Investigation Discovery
           </h2>
+          <br />
           <h2 className="video-sub-title">Director, Producer, Writer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             A weekend of deer hunting in northern Wisconsin - usually a time of
             camaraderie and celebration - turns terrifying when, in less than 48
             hours, an altercation between hunters in the woods leads to murder.
-            Selected Scenes
           </p>
         </div>
       </div>

@@ -44,14 +44,16 @@ const Musicbox = () => {
           // width="30%"
           // height="20%3
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">You're Watching Video Music Box</h2>{" "}
           <br />
-          <h2 className="video-title">Trailer</h2>
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
+          <br />
           <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
+          <br />
+          <h5 className="video-trailer">Trailer</h5>
           <p className="video-paragraph">
             The untold story of the world’s longest running video show, Video
             Music Box. A hip hop mainstay since 1983, VMB gave a platform to

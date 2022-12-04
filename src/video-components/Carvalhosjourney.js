@@ -45,12 +45,16 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">Carvalho’s Journey</h2>
-          <h2 className="video-title">A Documentary Film by Steve Rivo</h2>
+          <br />
+          <h2 className="video-sub-title">A Documentary Film by Steve Rivo</h2>
+          <br />
           <h2 className="video-sub-title">Director, Producer, Writer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scenes</h5>
           <p className="video-paragraph">
             A real-life 19th century American western adventure story,
             CARVALHO'S JOURNEY tells the extraordinary story of Solomon Nunes

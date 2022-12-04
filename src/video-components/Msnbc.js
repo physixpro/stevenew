@@ -45,14 +45,18 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">
-            “Wikileaks Video” from “Caught on Camera: Combat{" "}
+            “Wikileaks Video” from “Caught on Camera: Combat”
           </h2>
+          <br />
           <h2 className="video-sub-title">MSNBC Documentary</h2>
+          <br />
           <h2 className="video-sub-title">Producer and Writer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             Segment from MSNBC documentary series "Caught on Camera” about the
             classified U.S. military video leaked by Wikileaks in 2010. The
@@ -65,7 +69,6 @@ const Musicbox = () => {
             Julian Assange titled “Collateral Murder,” and which was later
             determined to have been provided by Chelsea Manning, was the event
             that first brought Assange and Wikileaks into the public eye.
-            Selected Scenes
           </p>
         </div>
       </div>

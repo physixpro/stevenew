@@ -45,16 +45,21 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">The Bottle</h2>
-          <h2 className="video-title">
+          <br />
+          <h2 className="video-sub-title">
             Music Video for legendary artist Gil Scott-Heron’s classic song “The
             Bottle”
           </h2>
+          <br />
           <h2 className="video-sub-title">Co-Director and Producer</h2>
-          <p className="video-paragraph">Over 3.8 Million Views on YouTube</p>
+          <p className="video-paragraph">
+            Produced for TVT Records as part of re-issue of Scott-Heron’s full
+            catalogue. Video has over 3.8 Million Views on YouTube
+          </p>
         </div>
       </div>
     </div>

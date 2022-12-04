@@ -45,17 +45,20 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">Broken</h2>
-          <h2 className="video-title">Trailer</h2>
+          <br />
           <h2 className="video-sub-title">A Netflix Original Series</h2>
+          <br />
           <h2 className="video-sub-title">Director</h2>
+          <br />
+          <h2 className="video-trailer">Trailer</h2>
           <p className="video-paragraph">
             This investigative docuseries shows how negligence and deceit in the
             production and marketing of popular consumer items can result in
-            dire outcomes. Selected Scenes
+            dire outcomes.
           </p>
         </div>
       </div>

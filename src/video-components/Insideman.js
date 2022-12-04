@@ -45,20 +45,22 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
-          <h2 className="video-title">
-            Morgan Spurlock’s Inside Man: “CSI” – Episode of award-winning CNN
-            Series
-          </h2>
-          <h2 className="video-sub-title">Director and Producer</h2>
+          <h2 className="video-title">Morgan Spurlock’s Inside Man: “CSI”</h2>
+          <br />
+          <h2 className="video-sub-title">A CNN Original Series</h2>
+          <br />
+          <h2 className="video-sub-title">Director/Producer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             Filmmaker Morgan Spurlock investigates intriguing topics of our
             times by digging deep to learn how the real story unfolds from the
             inside. In this episode, Morgan tags along with a forensic unit to
             understand the difference between how crime scene investigations are
-            really conducted and how TV portrays them. Selected Scenes
+            really conducted and how TV portrays them.
           </p>
         </div>
       </div>

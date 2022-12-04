@@ -9,15 +9,23 @@
   padding-top: 60px;
 }
 
+.video-trailer {
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
 .video-paragraph {
   color: white;
   font-family: "Titillium Web", sans-serif;
   text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
 }
 
 .video-sub-title {
   color: white;
-
+  font-weight: lighter;
   font-family: "Titillium Web", sans-serif;
   font-size: 15px;
 }

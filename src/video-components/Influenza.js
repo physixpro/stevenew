@@ -45,13 +45,15 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">Invisible Killers: Influenza</h2>
-          <h2 className="video-title">
-            A 3-part Documentary Series for Discovery
+          <br />
+          <h2 className="video-sub-title">
+            <br />A 3-part Documentary Series for Discovery
           </h2>
+          <br />
           <h2 className="video-sub-title">Director/Producer</h2>
           <p className="video-paragraph">
             ‘Influenza’ delves into the astonishing history and impact of this

@@ -45,14 +45,19 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">
             Bitchin’: The Sound and Fury of Rick James
           </h2>
+          <br />
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
+          <br />
           <h2 className="video-sub-title">Showrunner/ Producer/ Co-Writer</h2>
+          <br />
+          <h5 className="video-trailer">Trailer</h5>
+          <br />
           <p className="video-paragraph">
             A raw and intimate documentary look at the wildly colorful life of
             legendary funk artist Rick James. Original interviews with artists,

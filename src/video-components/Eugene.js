@@ -45,15 +45,19 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">Eugene O’Neill: A Documentary Film</h2>
+          <br />
           <h2 className="video-sub-title">A PBS Documentary Film</h2>
+          <br />
           <h2 className="video-sub-title">Producer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             Excerpt from Emmy-Award winning “American Experience” film on
-            playwright Eugene O'Neill.
+            playwright Eugene O'Neill, directed by Ric Burns.
           </p>
         </div>
       </div>

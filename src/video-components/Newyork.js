@@ -44,19 +44,24 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">New York: A Documentary Film </h2>
-          <h2 className="video-sub-title">The landmark PBS series</h2>
+          <br />
+          <h2 className="video-sub-title">PBS series directed by Ric Burns</h2>
+          <br />
           <h2 className="video-sub-title">Producer</h2>
+          <br />
+          <h5 className="video-trailer">
+            Selected Scenes from “Episode Seven: The City and the World”
+          </h5>
           <p className="video-paragraph">
-            This seven-part, fourteen-hour television event directed by Ric
-            Burns explores New York City's rich history as the premier
-            laboratory of modern life. A sweeping narrative covering nearly 400
-            years and 400 square miles, it reveals a complex and dynamic city
-            that has played an unparalleled role in shaping the nation and
-            reflecting its ideals. Selected Scenes
+            This seven-part, fourteen-hour television event explores New York
+            City's rich history as the premier laboratory of modern life. A
+            sweeping narrative covering nearly 400 years and 400 square miles,
+            it reveals a complex and dynamic city that has played an
+            unparalleled role in shaping the nation and reflecting its ideals.
           </p>
         </div>
       </div>

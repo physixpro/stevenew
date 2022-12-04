@@ -45,21 +45,26 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">The Vice Guide to Everything </h2>
-          <h2 className="video-title">
+          <br />
+          <h2 className="video-sub-title">
             An 8-episode VICE Documentary Series for MTV
           </h2>
+          <br />
           <h2 className="video-sub-title">Senior Story Producer</h2>
+          <br />
+          <h5 className="video-trailer">
+            Selected Scene - “Ramallah Street Racing”
+          </h5>
           <p className="video-paragraph">
             When Vice magazine first started, all it cared about was sex, drugs,
             and rock 'n roll. But as it started traveling around the world, it
             got more into politics, culture, fashion, art, the environment.
-            Basically, everything - The Vice Guide To Everything. “Ramallah
-            Street Racing” - Full segment from Episode 3, hosted by Thomas
-            Morton
+            Basically, everything - The Vice Guide To Everything. In this
+            segment from Episode 3, host Thomas Morton travels to Palestine.
           </p>
         </div>
       </div>

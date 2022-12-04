@@ -45,23 +45,19 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
           <h2 className="video-title">Rolling Like Thunder </h2> <br />
-          <h2 className="video-title">Trailer</h2>
           <h2 className="video-sub-title">A Showtime Documentary Film</h2>
+          <br />
           <h2 className="video-sub-title">Showrunner/ Producer</h2>
+          <h5 className="video-trailer">Trailer</h5>
           <p className="video-paragraph">
-            Before street art became mainstream, the anonymous outlaws of
-            “freight writing” put graffiti on the map. One of the most extreme
-            and risky iterations of the art form, freight train graffiti culture
-            has a rich history, laden with myth-like artists, remarkable
-            romances and competitive graffiti crews. Delving into the
-            underground subculture reveals the deep connection between graffiti
-            and the American landscape, as well as the artists’ obsession with
-            putting life and limb on the line to make their voices heard.
-            (Trailer)
+            A deep dive into the underground world of freight train graffiti
+            culture, this feature documentary film was produced as part of Mass
+            Appeal and Showtime’s “Hip Hop 50” initiative – celebrating the 50th
+            anniversary of Hip Hop.
           </p>
         </div>
       </div>

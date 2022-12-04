@@ -45,18 +45,23 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
-          <h2 className="video-title">Broken: “Recycling Sham” Episode</h2>
+          <h2 className="video-title">Broken</h2>
+          <br />
           <h2 className="video-title">A Netflix Original Series</h2>
-          <h2 className="video-title">Selected Scene</h2>
+          <br />
+
           <h2 className="video-sub-title">Director and Writer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             Many single-use plastic products are marketed as recyclable when, in
             fact, much of plastic recycling winds up as landfill or on the
-            beaches of Southeast Asia. This scene highlights the problem of
-            plastic waste overflow in Malaysia.
+            beaches of Southeast Asia. This scene from the episode called
+            “Recycling Sham” highlights the problem of plastic waste overflow in
+            Malaysia.
           </p>
         </div>
       </div>

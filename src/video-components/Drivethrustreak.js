@@ -44,21 +44,23 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
-          <h2 className="video-title">
-            Anthony Bourdain: Parts Unknown – “Uruguay” episode from Season 11
-            of Emmy and Peabody-winning CNN series
-          </h2>
-          <h2 className="video-title">Drive Thru Steak </h2>
+          <h2 className="video-title">Anthony Bourdain: Parts Unknown</h2>
+          <br />
+          <h2 className="video-sub-title">“Uruguay” episode (Season 11)</h2>
+          <br />
           <h2 className="video-sub-title">Director</h2>
-
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             Bourdain journeys to the progressive South American nation of
             Uruguay, accompanied by NYC chef Ignacio Mattos, a native Uruguayan,
             where they enjoy a wide selection of meats in a country where cattle
-            outnumber people almost 4 to 1.
+            outnumber people almost 4 to 1. This excerpt features Bourdain and
+            Mattos visiting a drive-thru steak restaurant in Punta Del Este,
+            Uruguay.
           </p>
         </div>
       </div>

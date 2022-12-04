@@ -45,17 +45,22 @@ const Musicbox = () => {
           // width="30%"
           // height="20%"
           controls={true}
-          playing={true}
+          playing={false}
         />
         <div className="p-wrapper">
-          <h2 className="video-title">Broken: “Deadly Dressers“ Episode</h2>
-          <h2 className="video-title">A Netflix Original Series</h2>
+          <h2 className="video-title">Broken</h2>
+          <br />
+          <h2 className="video-sub-title">A Netflix Original Series</h2>
+          <br />
           <h2 className="video-sub-title">Director and Writer</h2>
+          <br />
+          <h5 className="video-trailer">Selected Scene</h5>
           <p className="video-paragraph">
             Disposable-furniture companies like IKEA hide known issues like
             fatally-flimsy construction and environmental destruction behind
-            their eco-friendly images. This scene looks at the issue of illegal
-            logging in the Carpathian forests of Romania.
+            their eco-friendly images. This scene from the episode on the fast
+            furniture industry called “Deadly Dressers” examines the issue of
+            illegal logging in the Carpathian forests of Romania.
           </p>
         </div>
       </div>
