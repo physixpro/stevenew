@@ -77,6 +77,9 @@ p {
 /************************* media 425 px *****************************/
 
 @media only screen and (max-width: 425px) {
+  #topline-bio-fix {
+    margin-left: 108px;
+  }
   .top-line {
     border: 1px solid red;
 

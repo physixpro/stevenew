@@ -28,7 +28,7 @@ const Bio = () => {
         </button>
       </header>
       <h1 id="steve-bio">Steve Rivo</h1>
-      <div className="top-line"></div>
+      <div id="topline-bio-fix" className="top-line"></div>
       <AnimationOnScroll animateIn="animate__fadeIn animate__delay-1s">
         <h3 id="steve-bio-sub">DOCUMENTARY FILMMAKER</h3>
       </AnimationOnScroll>
