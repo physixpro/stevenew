@@ -14,6 +14,7 @@
   font-family: "Titillium Web", sans-serif;
   font-size: 15px;
   font-weight: lighter;
+  cursor: default;
 }
 .video-paragraph {
   color: white;
@@ -28,6 +29,7 @@
   font-weight: lighter;
   font-family: "Titillium Web", sans-serif;
   font-size: 15px;
+  cursor: default;
 }
 
 .p-wrapper {
@@ -53,6 +55,7 @@ video {
   color: white;
   font-size: 20px;
   text-align: center;
+  cursor: default;
 }
 
 /********************** Media 768 px width ***************/
@@ -110,6 +113,7 @@ video {
   .video-trailer {
     max-width: 300px;
     text-align: center;
+    cursor: default;
   }
   .react-player {
     width: 100%;
@@ -124,6 +128,7 @@ video {
     text-align: center;
     padding-bottom: 40px;
     letter-spacing: 1px;
+    cursor: default;
   }
   .video-paragraph {
     color: white;
@@ -138,6 +143,7 @@ video {
     text-align: center;
     font-family: "Titillium Web", sans-serif;
     font-size: 15px;
+    cursor: default;
   }
 
   .wrap-video-content {

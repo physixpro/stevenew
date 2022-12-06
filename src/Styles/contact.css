@@ -9,12 +9,24 @@
   padding-top: 190px;
 }
 
+h6 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: lighter;
+}
 .contact-header {
   font-size: 30px;
   text-align: left;
   color: rgb(249, 249, 249);
+  cursor: default;
 }
-
+.contact-header-sub {
+  font-size: 20px;
+  text-align: left;
+  font-weight: lighter;
+  color: rgb(249, 249, 249);
+  cursor: default;
+}
 a {
   text-decoration: underline;
   color: white;
@@ -32,17 +44,31 @@ a {
     padding-left: 0px;
     padding-top: 190px;
   }
+
+  .contact-header-sub {
+    font-size: 5px;
+    white-space: nowrap;
+  }
 }
 @media only screen and (max-width: 375px) {
   .contact-wrap {
     padding-left: 0px;
     padding-top: 190px;
   }
+
+  .contact-header-sub {
+    font-size: 5px;
+    white-space: nowrap;
+  }
 }
 @media only screen and (max-width: 425px) {
   .contact-wrap {
     padding-left: 0px;
     padding-top: 190px;
+  }
+
+  .contact-header-sub {
+    font-size: 15px;
   }
 }
 @media only screen and (max-width: 768px) {

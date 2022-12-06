@@ -58,7 +58,8 @@ const Musicbox = () => {
             Bourdain journeys to the progressive South American nation of
             Uruguay, accompanied by NYC chef Ignacio Mattos, a native Uruguayan,
             where they enjoy a wide selection of meats in a country where cattle
-            outnumber people almost 4 to 1.
+            outnumber people almost 4 to 1. This excerpt features fishermen in
+            Jose Ignacio, Uruguay who pursue their catches from kayaks.
           </p>
         </div>
       </div>

@@ -31,11 +31,13 @@ const Contact = () => {
         <button className="contact-p">
           <a href="mailto:steverivo@gmail.com">steverivo@gmail.com</a>{" "}
         </button>
-        <h4 className="contact-header">Agent: Alan Moore, UTA</h4>
+        <h4 className="contact-header">Agent</h4>
+        <h4 className="contact-header-sub">Alan Moore, United Talent Agency</h4>
         <button className="contact-p">
           <a href="mailto:alan.moore@unitedtalent.com">
-            alan.moore@unitedtalent.com | +1 (424) 363-1100
+            alan.moore@unitedtalent.com
           </a>
+          <h6 id="number"> +1 (424) 363-1100</h6>
         </button>
       </div>
     </div>

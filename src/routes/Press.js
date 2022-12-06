@@ -122,6 +122,7 @@ const Fullpage = () => {
               Very Kinky Guy” (Link and PDF)
             </a>
           </li>
+          <br />
           <li>
             <a
               className="test-a"
@@ -230,7 +231,7 @@ const Fullpage = () => {
               Steve Rivo”
             </a>
           </li>{" "}
-          <br /> <br />
+          <br />
           <li>
             {" "}
             <a
