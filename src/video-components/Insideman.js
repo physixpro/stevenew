@@ -39,7 +39,7 @@ const Musicbox = () => {
       <div className="wrap-video-content">
         <ReactPlayer
           className="react-player"
-          url="https://player.vimeo.com/video/251843837?h=78eb0456f0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          url="https://player.vimeo.com/video/778589839?h=169ba05cf0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           width="558px"
           height="314.36"
           // width="30%"
